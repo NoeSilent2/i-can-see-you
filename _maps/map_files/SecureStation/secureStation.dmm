@@ -7895,7 +7895,7 @@
 	dwidth = 6;
 	height = 6;
 	name = "Cargo Bay";
-	shuttle_id = "cargo_home";
+	shuttle_id = "cargo_secure";
 	width = 11;
 	dir = 8
 	},
@@ -71360,8 +71360,8 @@
 	name = "elite smoothbore laser pistol";
 	pin = /obj/item/firing_pin/implant/mindshield;
 	ammo_type = list(/obj/item/ammo_casing/energy/laser/hellfire);
-	cell_type = /obj/item/stock_parts/power_store/cell/lead;
-	desc = "An incredibly stylish ceremonial smoothbore pistol, which is capable of firing two pulse shots before needing to manually reload. It is surprisingly practical for a style focused design."
+	desc = "An incredibly stylish ceremonial smoothbore pistol, which is capable of firing two pulse shots before needing to manually reload. It is surprisingly practical for a style focused design.";
+	cell_type = /obj/item/stock_parts/power_store/cell/high
 	},
 /obj/item/stamp/head/captain{
 	pixel_y = 14
