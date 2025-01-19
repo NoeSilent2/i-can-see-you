@@ -70,6 +70,10 @@
 /obj/structure/marker_beacon/burgundy,
 /turf/open/floor/plating/lavaland_atmos,
 /area/station/science/ordnance/bomb)
+"abf" = (
+/obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
+/turf/open/floor/plating,
+/area/station/security/office)
 "abm" = (
 /obj/structure/table,
 /obj/item/toy/toy_xeno{
@@ -392,6 +396,18 @@
 	},
 /turf/open/floor/engine/air,
 /area/station/engineering/atmos)
+"afW" = (
+/obj/machinery/modular_computer/preset/id{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/dark_red/warning{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/dark_red/line{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/station/security/office)
 "afY" = (
 /obj/effect/turf_decal/sand/plating/volcanic,
 /obj/machinery/computer/old{
@@ -1550,6 +1566,23 @@
 	},
 /turf/open/floor/iron/textured_large,
 /area/station/cargo/office)
+"axq" = (
+/obj/machinery/door/poddoor/preopen{
+	id = "brig_outer_panopticon";
+	name = "Outer Panopticon Lockdown"
+	},
+/obj/machinery/door/airlock/security/glass{
+	name = "South Security Office"
+	},
+/obj/effect/mapping_helpers/airlock/access/all/security/general,
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/obj/machinery/door/firedoor/heavy,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/dark,
+/turf/open/floor/iron/dark/textured_large,
+/area/station/security/brig)
 "axx" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/railing{
@@ -1875,6 +1908,12 @@
 /obj/item/storage/box/bodybags,
 /turf/open/floor/iron/white/smooth_large,
 /area/station/medical/storage)
+"aBN" = (
+/obj/effect/turf_decal/trimline/dark_red/line,
+/obj/structure/closet/emcloset,
+/obj/item/storage/medkit/emergency,
+/turf/open/floor/iron/dark,
+/area/station/security/office)
 "aBP" = (
 /obj/effect/turf_decal/trimline/dark_red/filled/line{
 	dir = 4
@@ -3489,10 +3528,9 @@
 /obj/item/mecha_parts/mecha_equipment/armor/anticcw_armor_booster,
 /obj/item/mecha_parts/mecha_equipment/generator,
 /obj/item/mecha_parts/mecha_equipment/air_tank/full,
-/obj/item/mecha_parts/mecha_equipment/weapon/energy/laser/heavy,
 /obj/item/mecha_parts/mecha_equipment/weapon/ballistic/lmg,
-/obj/item/mecha_parts/mecha_equipment/weapon/energy/pulse,
 /obj/item/stack/sheet/mineral/plasma/thirty,
+/obj/item/mecha_parts/mecha_equipment/weapon/energy/laser,
 /turf/open/floor/iron/smooth_large,
 /area/station/command/heads_quarters/hos)
 "aXE" = (
@@ -6124,69 +6162,8 @@
 /turf/open/floor/iron/textured_large,
 /area/station/command/corporate_suite)
 "bHH" = (
-/obj/effect/turf_decal/bot,
 /obj/structure/cable,
 /obj/machinery/light/dim/directional/south,
-/obj/structure/closet/crate/cardboard{
-	name = "mining flare shipment";
-	desc = "Has a tag, denoting that it contains reusable high power mining flares. You think that these were meant to be unpacked already, guess the night shift was in a rush."
-	},
-/obj/item/flashlight/flare{
-	light_range = 12;
-	light_power = 3;
-	trash_type = /obj/item/flashlight/flare;
-	name = "reusable mining flare";
-	desc = "A red Nanotrasen issued flare. There are instructions on the side, it reads 'pull cord, make light'. It seems to be very powerful! Though, who knows how powerful it'll be once you reuse it."
-	},
-/obj/item/flashlight/flare{
-	light_range = 12;
-	light_power = 3;
-	trash_type = /obj/item/flashlight/flare;
-	name = "reusable mining flare";
-	desc = "A red Nanotrasen issued flare. There are instructions on the side, it reads 'pull cord, make light'. It seems to be very powerful! Though, who knows how powerful it'll be once you reuse it."
-	},
-/obj/item/flashlight/flare{
-	light_range = 12;
-	light_power = 3;
-	trash_type = /obj/item/flashlight/flare;
-	name = "reusable mining flare";
-	desc = "A red Nanotrasen issued flare. There are instructions on the side, it reads 'pull cord, make light'. It seems to be very powerful! Though, who knows how powerful it'll be once you reuse it."
-	},
-/obj/item/flashlight/flare{
-	light_range = 12;
-	light_power = 3;
-	trash_type = /obj/item/flashlight/flare;
-	name = "reusable mining flare";
-	desc = "A red Nanotrasen issued flare. There are instructions on the side, it reads 'pull cord, make light'. It seems to be very powerful! Though, who knows how powerful it'll be once you reuse it."
-	},
-/obj/item/flashlight/flare{
-	light_range = 12;
-	light_power = 3;
-	trash_type = /obj/item/flashlight/flare;
-	name = "reusable mining flare";
-	desc = "A red Nanotrasen issued flare. There are instructions on the side, it reads 'pull cord, make light'. It seems to be very powerful! Though, who knows how powerful it'll be once you reuse it."
-	},
-/obj/item/flashlight/flare{
-	light_range = 12;
-	light_power = 3;
-	trash_type = /obj/item/flashlight/flare;
-	name = "reusable mining flare";
-	desc = "A red Nanotrasen issued flare. There are instructions on the side, it reads 'pull cord, make light'. It seems to be very powerful! Though, who knows how powerful it'll be once you reuse it."
-	},
-/obj/item/flashlight/flare{
-	light_range = 12;
-	light_power = 3;
-	trash_type = /obj/item/flashlight/flare;
-	name = "reusable mining flare";
-	desc = "A red Nanotrasen issued flare. There are instructions on the side, it reads 'pull cord, make light'. It seems to be very powerful! Though, who knows how powerful it'll be once you reuse it."
-	},
-/obj/item/flashlight/flare{
-	light_range = 12;
-	light_power = 3;
-	trash_type = /obj/item/flashlight/flare;
-	name = "reusable mining flare";
-	desc = "A red Nanotrasen issued flare. There are instructions on the side, it reads 'pull cord, make light'. It seems to be very powerful! Though, who knows how powerful it'll be once you reuse it."
-	},
 /turf/open/floor/iron,
 /area/station/security/brig)
 "bHN" = (
@@ -7717,6 +7694,10 @@
 /obj/effect/turf_decal/bot,
 /turf/open/floor/iron/recharge_floor,
 /area/station/security/mechbay)
+"chb" = (
+/obj/structure/filingcabinet/chestdrawer,
+/turf/open/floor/iron/dark,
+/area/station/security/office)
 "chc" = (
 /obj/machinery/atmospherics/pipe/multiz/supply/hidden/layer4{
 	dir = 8
@@ -9323,6 +9304,18 @@
 	},
 /turf/open/floor/iron/textured_large,
 /area/station/hallway/primary/central)
+"cFF" = (
+/obj/item/book/granter/action/spell/true_random{
+	name = "book of primordial chaos: volume 3";
+	starting_title = "book of primordial chaos: volume 3";
+	reading_time = 120;
+	pages_to_mastery = 6;
+	remarks = list("Chaos... a primordial force that came before all others...","It barely even covers how to cast the spell... does it even know what spell its teaching me?","I don't think this book has said anything about casting methods, and yet I'm figuring something out...","What is it that I'm learning?","So much text, so much to take in... what does it all mean?","I think I understand... just a little longer...","Apparently I need magical talents to cast most forms of chaos... that may be hard to come across...","How do I become a wizard? It seems to assume that I am...","I don't think I was reading a language I knew for that whole page... and yet I did....","Beware of heresy... I suppose the mansus has touched the chaos...","The mansus is the easiest form of chaos to cast... if you discover it in your studies... I don't think they meant to give me this book...");
+	action_name = "primordial chaos";
+	icon_state = "heretichandbook"
+	},
+/turf/open/floor/engine/cult,
+/area/station/service/library/upper)
 "cFH" = (
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/station/hallway/secondary/command)
@@ -11306,7 +11299,6 @@
 /obj/item/storage/box/minertracker{
 	pixel_y = 7
 	},
-/obj/item/disk/surgery/brainwashing,
 /turf/open/floor/iron/grimy,
 /area/station/security/detectives_office)
 "dhX" = (
@@ -11921,65 +11913,17 @@
 	},
 /area/lavaland/surface/outdoors)
 "dqP" = (
-/obj/structure/closet/crate/cardboard{
-	name = "chemlight shipment";
-	desc = "Has a tag, denoting that it contains chemlights. You think that these were meant to be unpacked already, guess the night shift was in a rush."
-	},
-/obj/effect/turf_decal/bot,
-/obj/item/stack/sheet/cardboard{
-	amount = 14
-	},
-/obj/item/flashlight/glowstick{
-	name = "chemlight";
-	desc = "A military-grade glowstick- I mean chemlight. Don't underestimate the power of sounding tacticool."
-	},
-/obj/item/flashlight/glowstick{
-	name = "chemlight";
-	desc = "A military-grade glowstick- I mean chemlight. Don't underestimate the power of sounding tacticool."
-	},
-/obj/item/flashlight/glowstick{
-	name = "chemlight";
-	desc = "A military-grade glowstick- I mean chemlight. Don't underestimate the power of sounding tacticool."
-	},
-/obj/item/flashlight/glowstick{
-	name = "chemlight";
-	desc = "A military-grade glowstick- I mean chemlight. Don't underestimate the power of sounding tacticool."
-	},
-/obj/item/flashlight/glowstick{
-	name = "chemlight";
-	desc = "A military-grade glowstick- I mean chemlight. Don't underestimate the power of sounding tacticool."
-	},
-/obj/item/flashlight/glowstick{
-	name = "chemlight";
-	desc = "A military-grade glowstick- I mean chemlight. Don't underestimate the power of sounding tacticool."
-	},
-/obj/item/flashlight/glowstick{
-	name = "chemlight";
-	desc = "A military-grade glowstick- I mean chemlight. Don't underestimate the power of sounding tacticool."
-	},
-/obj/item/flashlight/glowstick{
-	name = "chemlight";
-	desc = "A military-grade glowstick- I mean chemlight. Don't underestimate the power of sounding tacticool."
-	},
-/obj/item/flashlight/glowstick{
-	name = "chemlight";
-	desc = "A military-grade glowstick- I mean chemlight. Don't underestimate the power of sounding tacticool."
-	},
-/obj/item/flashlight/glowstick{
-	name = "chemlight";
-	desc = "A military-grade glowstick- I mean chemlight. Don't underestimate the power of sounding tacticool."
-	},
-/obj/item/flashlight/glowstick{
-	name = "chemlight";
-	desc = "A military-grade glowstick- I mean chemlight. Don't underestimate the power of sounding tacticool."
-	},
-/obj/item/flashlight/glowstick{
-	name = "chemlight";
-	desc = "A military-grade glowstick- I mean chemlight. Don't underestimate the power of sounding tacticool."
-	},
-/obj/structure/cable,
-/turf/open/floor/iron,
-/area/station/security/brig)
+/obj/structure/closet/crate/eva,
+/obj/item/tank/internals/emergency_oxygen/engi,
+/obj/item/tank/internals/emergency_oxygen/engi,
+/obj/item/tank/internals/emergency_oxygen/engi,
+/obj/item/tank/internals/emergency_oxygen/engi,
+/obj/item/clothing/mask/gas/sechailer,
+/obj/item/clothing/mask/gas/sechailer,
+/obj/item/clothing/mask/gas/sechailer,
+/obj/item/clothing/mask/gas/sechailer,
+/turf/open/floor/glass/reinforced,
+/area/station/security/office)
 "dqU" = (
 /obj/effect/turf_decal/trimline/yellow/corner{
 	dir = 8
@@ -12792,6 +12736,12 @@
 	},
 /turf/open/floor/iron/smooth,
 /area/station/hallway/secondary/service)
+"dAO" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/effect/turf_decal/trimline/dark_red/line,
+/obj/item/clothing/mask/balaclava,
+/turf/open/floor/iron/dark,
+/area/station/security/office)
 "dAT" = (
 /obj/effect/turf_decal/siding/dark{
 	dir = 1
@@ -13251,6 +13201,17 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /turf/open/floor/iron/white/textured_large,
 /area/station/medical/surgery/aft)
+"dGX" = (
+/obj/structure/railing/corner,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/obj/effect/turf_decal/trimline/dark_red/line{
+	dir = 9
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/station/hallway/primary/central)
 "dHc" = (
 /obj/machinery/atmospherics/components/unary/portables_connector/visible/layer4{
 	dir = 8
@@ -14873,8 +14834,6 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/structure/safe/floor,
-/obj/item/disk/surgery/brainwashing,
 /turf/open/floor/iron/dark,
 /area/station/security/interrogation)
 "efl" = (
@@ -16707,10 +16666,6 @@
 /obj/effect/mapping_helpers/airlock/cutaiwire,
 /turf/open/floor/iron/dark,
 /area/station/security/brig)
-"eDG" = (
-/obj/structure/falsewall/reinforced,
-/turf/open/floor/plating,
-/area/station/service/library/upper)
 "eDI" = (
 /obj/machinery/dna_scannernew,
 /obj/effect/turf_decal/siding/purple{
@@ -21941,6 +21896,21 @@
 	},
 /turf/open/floor/engine,
 /area/station/engineering/supermatter/room)
+"gfM" = (
+/obj/machinery/light/directional/west,
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/turf_decal/trimline/dark_red/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/station/hallway/primary/central)
 "ggc" = (
 /obj/effect/mine/stun{
 	pixel_x = 7;
@@ -24517,8 +24487,17 @@
 /turf/open/floor/iron/dark/textured_large,
 /area/station/cargo/miningdock)
 "gPc" = (
-/turf/closed/wall/r_wall,
-/area/station/security/office)
+/obj/effect/turf_decal/trimline/dark_red/warning{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/obj/structure/railing/corner/end/flip{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/station/hallway/primary/central)
 "gPj" = (
 /obj/structure/railing{
 	dir = 4
@@ -25082,18 +25061,6 @@
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/station/science/ordnance)
-"gXT" = (
-/obj/item/book/granter/action/spell/true_random{
-	name = "book of primordial chaos: volume 3";
-	starting_title = "book of primordial chaos: volume 3";
-	reading_time = 120;
-	pages_to_mastery = 6;
-	remarks = list("Chaos... a primordial force that came before all others...","It barely even covers how to cast the spell... does it even know what spell its teaching me?","I don't think this book has said anything about casting methods, and yet I'm figuring something out...","What is it that I'm learning?","So much text, so much to take in... what does it all mean?","I think I understand... just a little longer...","Apparently I need magical talents to cast most forms of chaos... that may be hard to come across...","How do I become a wizard? It seems to assume that I am...","I don't think I was reading a language I knew for that whole page... and yet I did....","Beware of heresy... I suppose the mansus has touched the chaos...","The mansus is the easiest form of chaos to cast... if you discover it in your studies... I don't think they meant to give me this book...");
-	action_name = "primordial chaos";
-	icon_state = "heretichandbook"
-	},
-/turf/open/floor/engine/cult,
-/area/station/service/library/upper)
 "gYg" = (
 /obj/machinery/door/airlock/security/glass{
 	name = "Upper Brig Access"
@@ -26017,6 +25984,25 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/smooth,
 /area/station/engineering/main)
+"hlQ" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/machinery/door/window/brigdoor{
+	dir = 8;
+	name = "Security Desk";
+	req_access = list("brig")
+	},
+/obj/machinery/door/window/brigdoor{
+	dir = 4;
+	name = "Security Desk";
+	req_access = list("brig")
+	},
+/obj/machinery/door/poddoor/preopen{
+	id = "brig_outer_panopticon";
+	name = "Outer Panopticon Lockdown"
+	},
+/obj/machinery/door/firedoor,
+/turf/open/floor/iron/dark,
+/area/station/security/office)
 "hmp" = (
 /obj/effect/spawner/structure/window/reinforced/shuttle,
 /turf/open/floor/plating,
@@ -28558,6 +28544,28 @@
 /obj/effect/landmark/event_spawn,
 /turf/open/floor/plastic,
 /area/station/cargo/storage)
+"hYo" = (
+/obj/structure/closet/crate/cardboard{
+	name = "tech shipment";
+	desc = "Has a tag, denoting that it contains spare electronic boards. You think that these were meant to be unpacked already, guess the night shift was in a rush."
+	},
+/obj/item/electronics/firelock,
+/obj/item/electronics/firealarm,
+/obj/item/electronics/apc,
+/obj/item/electronics/apc,
+/obj/item/electronics/apc,
+/obj/item/electronics/airlock,
+/obj/item/electronics/airlock,
+/obj/item/electronics/airlock,
+/obj/item/electronics/airalarm,
+/obj/item/electronics/airalarm,
+/obj/item/electronics/airalarm,
+/obj/item/stack/cable_coil,
+/obj/effect/turf_decal/box/red,
+/turf/open/floor/iron/dark/smooth_corner{
+	dir = 1
+	},
+/area/station/security/office)
 "hYu" = (
 /obj/effect/turf_decal/trimline/brown/warning{
 	dir = 8
@@ -29036,6 +29044,13 @@
 	},
 /turf/open/floor/iron/smooth_large,
 /area/station/engineering/main)
+"ihh" = (
+/obj/effect/turf_decal/trimline/dark_red/line,
+/obj/effect/turf_decal/trimline/dark_red/line{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/station/security/office)
 "ihw" = (
 /obj/effect/turf_decal/siding/purple,
 /obj/effect/turf_decal/siding/purple{
@@ -29655,6 +29670,13 @@
 	},
 /turf/open/floor/iron/grimy,
 /area/station/security/detectives_office)
+"ipV" = (
+/obj/structure/rack,
+/obj/effect/turf_decal/trimline/dark_red/line,
+/obj/item/storage/belt/security/webbing,
+/obj/item/clothing/head/beret/sec,
+/turf/open/floor/iron/dark,
+/area/station/security/office)
 "ipZ" = (
 /obj/machinery/door/airlock/public/glass{
 	name = "Upper Brig Walkway"
@@ -31243,6 +31265,13 @@
 	},
 /turf/open/floor/plating,
 /area/station/engineering/hallway)
+"iMG" = (
+/obj/effect/turf_decal/trimline/dark_red/warning{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/dark_red/corner,
+/turf/open/floor/iron/dark,
+/area/station/security/office)
 "iMH" = (
 /obj/machinery/atmospherics/components/tank{
 	dir = 4
@@ -34799,6 +34828,16 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
 /area/station/maintenance/disposal/incinerator)
+"jKC" = (
+/obj/effect/turf_decal/trimline/dark_red/line{
+	dir = 1
+	},
+/obj/structure/rack,
+/obj/item/restraints/handcuffs,
+/turf/open/floor/iron/dark/smooth_corner{
+	dir = 1
+	},
+/area/station/security/office)
 "jKJ" = (
 /obj/machinery/chem_master/condimaster{
 	desc = "Looks like a knock-off chem-master. Perhaps useful for separating liquids when mixing drinks precisely. Also dispenses condiments.";
@@ -36560,6 +36599,12 @@
 	},
 /turf/open/floor/carpet,
 /area/station/commons/dorms)
+"kkv" = (
+/obj/machinery/computer/records/security{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/station/security/office)
 "kkA" = (
 /obj/structure/ladder,
 /obj/effect/turf_decal/stripes/line{
@@ -38196,12 +38241,14 @@
 /turf/open/floor/iron/dark,
 /area/station/hallway/primary/aft)
 "kHh" = (
-/obj/structure/disposalpipe/segment,
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
-	dir = 1
+/obj/effect/turf_decal/trimline/dark_red/warning{
+	dir = 8
 	},
-/turf/open/floor/iron,
-/area/station/hallway/primary/central)
+/obj/effect/turf_decal/trimline/dark_red/corner{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/station/security/office)
 "kHl" = (
 /obj/machinery/atmospherics/components/unary/outlet_injector/monitored/nitrous_input{
 	dir = 8
@@ -40090,6 +40137,15 @@
 /obj/effect/turf_decal/sand/plating/volcanic,
 /turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/surface/outdoors)
+"lid" = (
+/obj/effect/turf_decal/trimline/dark_red/warning{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/dark_red/line{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/station/security/office)
 "lip" = (
 /obj/structure/flora/grass/jungle/b/style_random,
 /obj/effect/turf_decal/siding/thinplating/dark,
@@ -40197,6 +40253,21 @@
 	icon_state = "textured_dark"
 	},
 /area/ruin/space/has_grav/powered/clownplanet)
+"ljx" = (
+/obj/structure/railing/corner/end{
+	dir = 1
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/dark_red/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/station/hallway/primary/central)
 "ljz" = (
 /obj/machinery/door/poddoor/preopen{
 	id = "hos_privacy";
@@ -41608,6 +41679,10 @@
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/iron/dark,
 /area/station/hallway/primary/central)
+"lDD" = (
+/obj/structure/closet/crate/trashcart,
+/turf/open/floor/glass/reinforced,
+/area/station/security/office)
 "lDF" = (
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 4
@@ -42197,10 +42272,18 @@
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/ai_monitored/security/armory)
 "lKY" = (
-/obj/machinery/light/directional/west,
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/item/paper_bin{
+	pixel_x = -2;
+	pixel_y = 8
+	},
+/obj/structure/table,
+/obj/item/pen,
+/obj/item/folder/red{
+	pixel_x = 7
+	},
 /turf/open/floor/iron,
 /area/station/hallway/primary/central)
 "lLx" = (
@@ -42482,6 +42565,10 @@
 "lPj" = (
 /turf/open/floor/wood/parquet,
 /area/station/medical/psychology)
+"lPq" = (
+/obj/structure/closet/crate/bin,
+/turf/open/floor/iron/dark,
+/area/station/security/office)
 "lPH" = (
 /obj/structure/plasticflaps{
 	name = "Lava Burial"
@@ -42518,6 +42605,20 @@
 "lPO" = (
 /turf/closed/wall/r_wall,
 /area/station/engineering/atmos/hfr_room)
+"lQd" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/machinery/fax{
+	fax_name = "Security South Desk";
+	name = "Security Desk Fax Machine"
+	},
+/obj/effect/turf_decal/trimline/dark_red/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/dark_red/line{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/station/security/office)
 "lQo" = (
 /obj/effect/turf_decal/tile/purple{
 	dir = 4
@@ -47862,23 +47963,6 @@
 /turf/open/floor/glass/reinforced,
 /area/station/science/lobby)
 "nmZ" = (
-/obj/effect/turf_decal/bot,
-/obj/structure/closet/crate/cardboard{
-	name = "tech shipment";
-	desc = "Has a tag, denoting that it contains spare electronic boards. You think that these were meant to be unpacked already, guess the night shift was in a rush."
-	},
-/obj/item/electronics/airalarm,
-/obj/item/electronics/airalarm,
-/obj/item/electronics/airalarm,
-/obj/item/electronics/airlock,
-/obj/item/electronics/airlock,
-/obj/item/electronics/airlock,
-/obj/item/electronics/apc,
-/obj/item/electronics/apc,
-/obj/item/electronics/apc,
-/obj/item/electronics/firealarm,
-/obj/item/electronics/firelock,
-/obj/item/stack/cable_coil,
 /obj/structure/cable,
 /obj/machinery/airalarm/directional/west,
 /turf/open/floor/iron,
@@ -48632,7 +48716,7 @@
 	},
 /obj/structure/sign/poster/official/nanotrasen_logo/directional/north,
 /obj/structure/disposalpipe/trunk/multiz,
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/obj/structure/railing,
 /turf/open/floor/iron,
 /area/station/hallway/primary/central)
 "nzs" = (
@@ -50008,6 +50092,12 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/dark/textured_large,
 /area/station/command/corporate_dock)
+"nVX" = (
+/obj/structure/rack,
+/obj/effect/turf_decal/trimline/dark_red/line,
+/obj/item/holosign_creator/security,
+/turf/open/floor/iron/dark,
+/area/station/security/office)
 "nWn" = (
 /obj/structure/closet/l3closet/janitor,
 /obj/item/clothing/gloves/color/orange,
@@ -52345,6 +52435,25 @@
 /obj/effect/turf_decal/stripes/white/line,
 /turf/open/floor/iron,
 /area/station/security/prison/upper)
+"oFW" = (
+/obj/structure/window/reinforced/spawner/directional/east,
+/obj/structure/window/reinforced/spawner/directional/west,
+/obj/machinery/door/window/brigdoor{
+	name = "ED-209 Storage";
+	req_access = list("brig");
+	dir = 1
+	},
+/obj/effect/turf_decal/box/red/corners{
+	dir = 8
+	},
+/obj/effect/turf_decal/box/red/corners,
+/mob/living/simple_animal/bot/secbot/ed209{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/side{
+	dir = 1
+	},
+/area/station/security/office)
 "oFZ" = (
 /obj/effect/turf_decal/trimline/green/filled/line,
 /obj/machinery/airalarm/directional/south,
@@ -55360,6 +55469,13 @@
 	dir = 4
 	},
 /area/station/hallway/primary/starboard)
+"pBd" = (
+/obj/machinery/computer/records/medical{
+	req_one_access = list("security");
+	dir = 1
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/station/security/office)
 "pBg" = (
 /obj/effect/turf_decal/trimline/dark_red/warning{
 	dir = 4
@@ -57424,6 +57540,16 @@
 	},
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/security/warden)
+"qig" = (
+/obj/machinery/computer/crew,
+/obj/machinery/button/door/directional/east{
+	id = "brig_outer_panopticon";
+	name = "Outer Panopticon Lockdown";
+	pixel_y = -6;
+	req_access = list("brig")
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/station/security/office)
 "qii" = (
 /obj/machinery/atmospherics/pipe/layer_manifold/dark/visible,
 /turf/open/floor/iron,
@@ -58421,6 +58547,8 @@
 	c_tag = "Security - Evidence"
 	},
 /obj/machinery/airalarm/directional/north,
+/obj/structure/safe/floor,
+/obj/item/disk/surgery/brainwashing,
 /turf/open/floor/iron/dark,
 /area/station/security/evidence)
 "qwa" = (
@@ -58482,6 +58610,11 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/white,
 /area/station/command/heads_quarters/cmo)
+"qwR" = (
+/obj/effect/turf_decal/box/red,
+/obj/machinery/holopad,
+/turf/open/floor/iron/dark/textured_large,
+/area/station/security/office)
 "qwT" = (
 /obj/machinery/door/airlock/external{
 	name = "Departure Lounge Airlock"
@@ -61284,7 +61417,7 @@
 /obj/item/ammo_casing/rocket/heap{
 	name = "a fucking cannonball";
 	desc = "This is 'a fucking cannonball', a bit vulgar, much? The cannonball in question seems to be taped to the front of a rocket. Try it out! Just... be careful where it goes.";
-	projectile_type = /obj/projectile/bullet/cannonball/biggest_one
+	projectile_type = /obj/projectile/bullet/cannonball
 	},
 /turf/open/floor/wood,
 /area/station/command/heads_quarters/hos)
@@ -61343,6 +61476,10 @@
 /obj/structure/holosign/barrier/cyborg,
 /turf/open/floor/plating/lavaland_atmos,
 /area/station/maintenance/space_hut/observatory)
+"rml" = (
+/obj/structure/falsewall/reinforced,
+/turf/open/floor/plating,
+/area/station/service/library/upper)
 "rmp" = (
 /obj/machinery/airalarm/directional/east,
 /turf/open/floor/catwalk_floor/iron_dark,
@@ -63197,6 +63334,9 @@
 "rOh" = (
 /turf/open/floor/iron,
 /area/station/science/robotics/mechbay)
+"rOm" = (
+/turf/open/floor/glass/reinforced,
+/area/station/security/office)
 "rOn" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 5
@@ -65345,7 +65485,6 @@
 	},
 /obj/item/storage/box/firingpins,
 /obj/item/implanter/explosive,
-/obj/item/shield/energy,
 /turf/open/floor/iron/grimy,
 /area/station/command/heads_quarters/hos)
 "soq" = (
@@ -69143,13 +69282,13 @@
 /turf/open/floor/iron/dark,
 /area/station/science/ordnance/testlab)
 "trk" = (
-/obj/vehicle/sealed/mecha/marauder/seraph{
-	accesses = list("hos");
-	name = "\improper SRPH 'Oops'"
-	},
 /obj/effect/turf_decal/bot,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 1
+	},
+/obj/vehicle/sealed/mecha/gygax{
+	accesses = list("hos");
+	name = "\improper GYGX 'Oops'"
 	},
 /turf/open/floor/iron/recharge_floor,
 /area/station/command/heads_quarters/hos)
@@ -73567,6 +73706,13 @@
 	},
 /turf/open/floor/iron/white,
 /area/station/science/lobby)
+"uDl" = (
+/obj/effect/turf_decal/trimline/dark_red/corner,
+/obj/effect/turf_decal/trimline/dark_red/line{
+	dir = 9
+	},
+/turf/open/floor/iron/dark,
+/area/station/security/office)
 "uDp" = (
 /obj/effect/turf_decal/trimline/red/warning{
 	dir = 1
@@ -74592,6 +74738,67 @@
 "uTi" = (
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/station/construction/mining)
+"uTs" = (
+/obj/effect/turf_decal/box/red,
+/obj/structure/closet/crate/cardboard{
+	name = "chemlight shipment";
+	desc = "Has a tag, denoting that it contains chemlights. You think that these were meant to be unpacked already, guess the night shift was in a rush."
+	},
+/obj/item/stack/sheet/cardboard{
+	amount = 14
+	},
+/obj/item/flashlight/glowstick{
+	name = "chemlight";
+	desc = "A military-grade glowstick- I mean chemlight. Don't underestimate the power of sounding tacticool."
+	},
+/obj/item/flashlight/glowstick{
+	name = "chemlight";
+	desc = "A military-grade glowstick- I mean chemlight. Don't underestimate the power of sounding tacticool."
+	},
+/obj/item/flashlight/glowstick{
+	name = "chemlight";
+	desc = "A military-grade glowstick- I mean chemlight. Don't underestimate the power of sounding tacticool."
+	},
+/obj/item/flashlight/glowstick{
+	name = "chemlight";
+	desc = "A military-grade glowstick- I mean chemlight. Don't underestimate the power of sounding tacticool."
+	},
+/obj/item/flashlight/glowstick{
+	name = "chemlight";
+	desc = "A military-grade glowstick- I mean chemlight. Don't underestimate the power of sounding tacticool."
+	},
+/obj/item/flashlight/glowstick{
+	name = "chemlight";
+	desc = "A military-grade glowstick- I mean chemlight. Don't underestimate the power of sounding tacticool."
+	},
+/obj/item/flashlight/glowstick{
+	name = "chemlight";
+	desc = "A military-grade glowstick- I mean chemlight. Don't underestimate the power of sounding tacticool."
+	},
+/obj/item/flashlight/glowstick{
+	name = "chemlight";
+	desc = "A military-grade glowstick- I mean chemlight. Don't underestimate the power of sounding tacticool."
+	},
+/obj/item/flashlight/glowstick{
+	name = "chemlight";
+	desc = "A military-grade glowstick- I mean chemlight. Don't underestimate the power of sounding tacticool."
+	},
+/obj/item/flashlight/glowstick{
+	name = "chemlight";
+	desc = "A military-grade glowstick- I mean chemlight. Don't underestimate the power of sounding tacticool."
+	},
+/obj/item/flashlight/glowstick{
+	name = "chemlight";
+	desc = "A military-grade glowstick- I mean chemlight. Don't underestimate the power of sounding tacticool."
+	},
+/obj/item/flashlight/glowstick{
+	name = "chemlight";
+	desc = "A military-grade glowstick- I mean chemlight. Don't underestimate the power of sounding tacticool."
+	},
+/turf/open/floor/iron/dark/smooth_corner{
+	dir = 1
+	},
+/area/station/security/office)
 "uTt" = (
 /obj/effect/turf_decal/trimline/purple/filled/end{
 	dir = 4
@@ -79916,6 +80123,19 @@
 	},
 /turf/open/floor/iron/white/textured_large,
 /area/station/medical/medbay)
+"wuf" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/machinery/recharger{
+	pixel_y = 3
+	},
+/obj/effect/turf_decal/trimline/dark_red/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/dark_red/line{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/station/security/office)
 "wup" = (
 /obj/effect/turf_decal/tile/purple{
 	dir = 4
@@ -85397,6 +85617,19 @@
 /obj/effect/landmark/start/assistant,
 /turf/open/floor/iron/smooth,
 /area/station/service/kitchen/diner)
+"xRq" = (
+/obj/machinery/door/airlock/security/glass{
+	name = "South Security Office"
+	},
+/obj/effect/mapping_helpers/airlock/access/all/security/general,
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/obj/machinery/door/firedoor/heavy,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/dark,
+/turf/open/floor/iron/dark/textured_large,
+/area/station/security/office)
 "xRr" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/dresser,
@@ -85408,7 +85641,7 @@
 	},
 /obj/structure/table/reinforced/plastitaniumglass,
 /obj/machinery/fax{
-	fax_name = "Security Desk";
+	fax_name = "Security North Desk";
 	name = "Security Desk Fax Machine"
 	},
 /obj/effect/turf_decal/trimline/dark_red/line{
@@ -116153,8 +116386,8 @@ eaT
 eaT
 udo
 udo
-pZJ
-pZJ
+udo
+udo
 udo
 udo
 udo
@@ -116409,9 +116642,9 @@ eaT
 eaT
 eaT
 udo
-pZJ
-pZJ
-pZJ
+udo
+udo
+udo
 udo
 udo
 udo
@@ -116666,10 +116899,10 @@ eaT
 eaT
 eaT
 udo
-pZJ
-pZJ
-pZJ
-pZJ
+udo
+udo
+udo
+udo
 udo
 udo
 eaT
@@ -116923,10 +117156,10 @@ eaT
 eaT
 udo
 udo
-pZJ
-pZJ
-pZJ
-pZJ
+udo
+udo
+udo
+udo
 udo
 udo
 eaT
@@ -117180,10 +117413,10 @@ eaT
 eaT
 udo
 udo
-pZJ
-pZJ
-pZJ
-pZJ
+udo
+udo
+udo
+udo
 udo
 udo
 eaT
@@ -117438,9 +117671,9 @@ eaT
 eaT
 udo
 udo
-pZJ
-pZJ
-pZJ
+udo
+udo
+udo
 udo
 udo
 eaT
@@ -117696,7 +117929,7 @@ eaT
 eaT
 udo
 udo
-pZJ
+udo
 udo
 udo
 udo
@@ -181937,15 +182170,15 @@ kXW
 rgX
 mCo
 vrR
-rDS
-rDS
-rDS
-rDS
-rDS
-rDS
-rDS
-rDS
-rDS
+abf
+abf
+abf
+rSf
+abf
+abf
+abf
+abf
+rSf
 rDS
 rDS
 rDS
@@ -182194,15 +182427,15 @@ hDV
 fqU
 vrR
 vrR
-rDS
-rDS
-rDS
-rDS
-rDS
-rDS
-rDS
-rDS
-rDS
+dqP
+lDD
+rOm
+abf
+lPq
+lWP
+lWP
+chb
+abf
 rDS
 rDS
 rDS
@@ -182450,16 +182683,16 @@ mQW
 mQW
 mQW
 nmZ
-qHN
-rDS
-rDS
-rDS
-rDS
-rDS
-rDS
-rDS
-rDS
-rDS
+axq
+lid
+lid
+kHh
+xRq
+iMG
+lid
+lid
+afW
+rSf
 rDS
 rDS
 rDS
@@ -182706,17 +182939,17 @@ esa
 iLE
 hxz
 iLE
-dqP
+tJv
 qHN
-rDS
-rDS
-rDS
-rDS
-rDS
-rDS
-rDS
-rDS
-rDS
+hYo
+uTs
+jKC
+abf
+aBN
+lWP
+lWP
+oFW
+rSf
 rDS
 rDS
 rDS
@@ -182965,16 +183198,16 @@ iLE
 iLE
 bHH
 vrR
-vrR
-vrR
-rDS
-rDS
-rDS
-rDS
-rDS
-rDS
-rDS
-rDS
+rSf
+rSf
+rSf
+rSf
+dAO
+uDl
+wuf
+lQd
+rSf
+rSf
 rDS
 rDS
 rDS
@@ -183225,13 +183458,13 @@ vrR
 ixj
 vrR
 rDS
-rDS
-rDS
-rDS
-rDS
-rDS
-rDS
-rDS
+abf
+ipV
+ihh
+oYa
+qwR
+pBd
+abf
 rDS
 rDS
 rDS
@@ -183482,13 +183715,13 @@ gbv
 ryG
 iyd
 rDS
-rDS
-rDS
-rDS
-rDS
-rDS
-rDS
-rDS
+abf
+nVX
+ihh
+qig
+tom
+kkv
+abf
 rDS
 rDS
 rDS
@@ -183705,7 +183938,7 @@ uCH
 lNn
 lNn
 lNn
-gPc
+rSf
 rSf
 vYF
 rSf
@@ -183739,13 +183972,13 @@ gbv
 ryG
 iyd
 rDS
-rDS
-tnh
-lNn
-lNn
-lNn
-lNn
-lNn
+rSf
+rSf
+abf
+rSf
+hlQ
+rSf
+rSf
 lNn
 lNn
 lNn
@@ -183998,9 +184231,9 @@ vrR
 rDS
 rDS
 tnh
-lNn
-lNn
-lNn
+dGX
+gfM
+ljx
 lNn
 lNn
 lNn
@@ -184257,7 +184490,7 @@ rDS
 tnh
 nzl
 lKY
-kHh
+tuL
 ulL
 hzG
 dxQ
@@ -184512,7 +184745,7 @@ iyd
 rDS
 rDS
 nRn
-tRT
+gPc
 frM
 tRT
 lNn
@@ -264944,7 +265177,7 @@ tOP
 uId
 uId
 uId
-gXT
+cFF
 uId
 pKT
 tOT
@@ -265201,7 +265434,7 @@ tOP
 uId
 uId
 uId
-eDG
+rml
 uId
 pKT
 pKT
