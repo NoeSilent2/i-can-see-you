@@ -2177,7 +2177,9 @@
 /turf/open/floor/plating,
 /area/station/engineering/hallway)
 "aER" = (
-/turf/open/misc/asteroid/basalt/wasteland,
+/turf/open/misc/asteroid/basalt/wasteland{
+	planetary_atmos = 1
+	},
 /area/lavaland/surface/outdoors)
 "aFb" = (
 /obj/machinery/firealarm/directional/north,
@@ -2995,7 +2997,9 @@
 /area/station/science/lobby)
 "aPu" = (
 /obj/structure/flora/ash/seraka,
-/turf/open/misc/asteroid/basalt/wasteland,
+/turf/open/misc/asteroid/basalt/wasteland{
+	planetary_atmos = 1
+	},
 /area/lavaland/surface/outdoors)
 "aPz" = (
 /obj/effect/turf_decal/stripes/line{
@@ -4409,7 +4413,9 @@
 /area/station/security/courtroom)
 "biG" = (
 /obj/structure/marker_beacon/jade,
-/turf/open/misc/asteroid/basalt/wasteland,
+/turf/open/misc/asteroid/basalt/wasteland{
+	planetary_atmos = 1
+	},
 /area/lavaland/surface/outdoors)
 "biH" = (
 /obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
@@ -4574,7 +4580,8 @@
 /obj/effect/mapping_helpers/broken_floor,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/plastitanium{
-	initial_gas_mix = "LAVALAND_ATMOS"
+	initial_gas_mix = "LAVALAND_ATMOS";
+	planetary_atmos = 1
 	},
 /area/station/maintenance/space_hut/cabin)
 "bku" = (
@@ -5301,7 +5308,9 @@
 "buR" = (
 /obj/structure/flora/grass/jungle/b/style_random,
 /obj/structure/flora/bush/flowers_br/style_random,
-/turf/open/misc/asteroid/basalt/wasteland,
+/turf/open/misc/asteroid/basalt/wasteland{
+	planetary_atmos = 1
+	},
 /area/lavaland/surface/outdoors)
 "bva" = (
 /obj/machinery/atmospherics/components/trinary/filter/atmos/flipped/n2{
@@ -5978,7 +5987,9 @@
 /area/station/command/heads_quarters/rd)
 "bEI" = (
 /obj/structure/flora/bush/large/style_random,
-/turf/open/misc/asteroid/basalt/wasteland,
+/turf/open/misc/asteroid/basalt/wasteland{
+	planetary_atmos = 1
+	},
 /area/lavaland/surface/outdoors)
 "bES" = (
 /obj/effect/turf_decal/tile/brown/diagonal_edge,
@@ -7973,7 +7984,8 @@
 	dir = 8
 	},
 /turf/open/floor/engine/airless{
-	initial_gas_mix = "LAVALAND_ATMOS"
+	initial_gas_mix = "LAVALAND_ATMOS";
+	planetary_atmos = 1
 	},
 /area/station/engineering/atmos)
 "clf" = (
@@ -8227,7 +8239,8 @@
 "cqw" = (
 /obj/effect/turf_decal/sand/plating/volcanic,
 /turf/open/floor/engine/airless{
-	initial_gas_mix = "LAVALAND_ATMOS"
+	initial_gas_mix = "LAVALAND_ATMOS";
+	planetary_atmos = 1
 	},
 /area/station/engineering/atmos)
 "cqC" = (
@@ -8893,7 +8906,8 @@
 /obj/item/lead_pipe,
 /obj/effect/spawner/random/maintenance,
 /turf/open/floor/mineral/plastitanium{
-	initial_gas_mix = "LAVALAND_ATMOS"
+	initial_gas_mix = "LAVALAND_ATMOS";
+	planetary_atmos = 1
 	},
 /area/station/maintenance/space_hut/cabin)
 "czz" = (
@@ -9498,7 +9512,8 @@
 /obj/item/melee/baton/security/cattleprod,
 /obj/item/newspaper,
 /turf/open/floor/mineral/plastitanium{
-	initial_gas_mix = "LAVALAND_ATMOS"
+	initial_gas_mix = "LAVALAND_ATMOS";
+	planetary_atmos = 1
 	},
 /area/station/maintenance/space_hut/cabin)
 "cHN" = (
@@ -10844,7 +10859,8 @@
 /obj/effect/spawner/random/structure/crate_loot,
 /obj/effect/spawner/random/maintenance/three,
 /turf/open/floor/engine/airless{
-	initial_gas_mix = "LAVALAND_ATMOS"
+	initial_gas_mix = "LAVALAND_ATMOS";
+	planetary_atmos = 1
 	},
 /area/station/engineering/atmos/mix)
 "dch" = (
@@ -11328,7 +11344,8 @@
 	dir = 4
 	},
 /turf/open/floor/engine/airless{
-	initial_gas_mix = "LAVALAND_ATMOS"
+	initial_gas_mix = "LAVALAND_ATMOS";
+	planetary_atmos = 1
 	},
 /area/lavaland/surface/outdoors)
 "dik" = (
@@ -11629,7 +11646,9 @@
 /area/station/science/ordnance)
 "dmB" = (
 /obj/structure/flora/bush/jungle/c/style_random,
-/turf/open/misc/asteroid/basalt/wasteland,
+/turf/open/misc/asteroid/basalt/wasteland{
+	planetary_atmos = 1
+	},
 /area/lavaland/surface/outdoors)
 "dmQ" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/general/hidden,
@@ -12604,7 +12623,9 @@
 "dzT" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table/optable,
-/turf/open/floor/iron/freezer/lavaland,
+/turf/open/floor/iron/freezer/lavaland{
+	planetary_atmos = 1
+	},
 /area/station/maintenance/space_hut/cabin)
 "dzV" = (
 /obj/structure/safe/vault,
@@ -12697,6 +12718,7 @@
 /obj/structure/table/reinforced/plastitaniumglass,
 /obj/effect/turf_decal/trimline/dark_red/line,
 /obj/item/clothing/mask/balaclava,
+/obj/machinery/firealarm/directional/north,
 /turf/open/floor/iron/dark,
 /area/station/security/office)
 "dAT" = (
@@ -13569,7 +13591,9 @@
 /obj/structure/flora/bush/jungle/b/style_random,
 /obj/structure/flora/grass/jungle/a/style_random,
 /obj/structure/flora/ash/seraka,
-/turf/open/misc/asteroid/basalt/wasteland,
+/turf/open/misc/asteroid/basalt/wasteland{
+	planetary_atmos = 1
+	},
 /area/lavaland/surface/outdoors)
 "dMC" = (
 /obj/effect/turf_decal/trimline/purple/filled/line{
@@ -15194,7 +15218,8 @@
 "ejo" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/engine/airless{
-	initial_gas_mix = "LAVALAND_ATMOS"
+	initial_gas_mix = "LAVALAND_ATMOS";
+	planetary_atmos = 1
 	},
 /area/station/engineering/atmos)
 "ejq" = (
@@ -16261,7 +16286,9 @@
 /area/station/service/kitchen/kitchen_backroom)
 "ezi" = (
 /obj/structure/flora/ash/stem_shroom,
-/turf/open/misc/asteroid/basalt/wasteland,
+/turf/open/misc/asteroid/basalt/wasteland{
+	planetary_atmos = 1
+	},
 /area/lavaland/surface/outdoors)
 "ezn" = (
 /obj/effect/turf_decal/trimline/dark_red/line{
@@ -17289,7 +17316,9 @@
 "eOT" = (
 /obj/structure/flora/grass/jungle/b/style_random,
 /obj/structure/flora/bush/flowers_yw/style_random,
-/turf/open/misc/asteroid/basalt/wasteland,
+/turf/open/misc/asteroid/basalt/wasteland{
+	planetary_atmos = 1
+	},
 /area/lavaland/surface/outdoors)
 "ePk" = (
 /obj/effect/turf_decal/tile/yellow{
@@ -18669,7 +18698,8 @@
 "fjq" = (
 /obj/structure/ladder,
 /turf/open/floor/engine/airless{
-	initial_gas_mix = "LAVALAND_ATMOS"
+	initial_gas_mix = "LAVALAND_ATMOS";
+	planetary_atmos = 1
 	},
 /area/lavaland/surface/outdoors)
 "fjx" = (
@@ -21831,7 +21861,9 @@
 "geR" = (
 /obj/structure/flora/bush/jungle/a/style_random,
 /obj/structure/flora/bush/flowers_yw/style_random,
-/turf/open/misc/asteroid/basalt/wasteland,
+/turf/open/misc/asteroid/basalt/wasteland{
+	planetary_atmos = 1
+	},
 /area/lavaland/surface/outdoors)
 "gfC" = (
 /obj/machinery/atmospherics/pipe/smart/manifold/purple/visible{
@@ -23260,7 +23292,8 @@
 	dir = 1
 	},
 /turf/open/floor/engine/airless{
-	initial_gas_mix = "LAVALAND_ATMOS"
+	initial_gas_mix = "LAVALAND_ATMOS";
+	planetary_atmos = 1
 	},
 /area/lavaland/surface/outdoors)
 "gys" = (
@@ -23279,7 +23312,9 @@
 /area/station/science/xenobiology)
 "gyv" = (
 /obj/structure/flora/bush/flowers_br/style_random,
-/turf/open/misc/asteroid/basalt/wasteland,
+/turf/open/misc/asteroid/basalt/wasteland{
+	planetary_atmos = 1
+	},
 /area/lavaland/surface/outdoors)
 "gyz" = (
 /obj/effect/turf_decal/trimline/blue/filled/corner{
@@ -25564,7 +25599,8 @@
 "hgB" = (
 /obj/effect/turf_decal/sand/plating/volcanic,
 /turf/open/floor/engine/hull{
-	initial_gas_mix = "LAVALAND_ATMOS"
+	initial_gas_mix = "LAVALAND_ATMOS";
+	planetary_atmos = 1
 	},
 /area/lavaland/surface/outdoors)
 "hgJ" = (
@@ -26485,7 +26521,7 @@
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/turf_decal/siding/thinplating/dark,
 /obj/structure/cable,
-/turf/open/floor/iron/dark/textured_large,
+/turf/open/floor/iron/dark/telecomms,
 /area/station/ai_monitored/turret_protected/ai)
 "huF" = (
 /obj/machinery/libraryscanner,
@@ -30154,7 +30190,9 @@
 "ixN" = (
 /obj/structure/flora/grass/jungle/b/style_random,
 /obj/structure/flora/bush/flowers_pp/style_random,
-/turf/open/misc/asteroid/basalt/wasteland,
+/turf/open/misc/asteroid/basalt/wasteland{
+	planetary_atmos = 1
+	},
 /area/lavaland/surface/outdoors)
 "iyc" = (
 /obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
@@ -30266,7 +30304,8 @@
 	pixel_y = 9
 	},
 /turf/open/floor/engine/airless{
-	initial_gas_mix = "LAVALAND_ATMOS"
+	initial_gas_mix = "LAVALAND_ATMOS";
+	planetary_atmos = 1
 	},
 /area/lavaland/surface/outdoors)
 "iAl" = (
@@ -32031,7 +32070,8 @@
 /obj/effect/turf_decal/sand/plating/volcanic,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/dark/visible,
 /turf/open/floor/engine/airless{
-	initial_gas_mix = "LAVALAND_ATMOS"
+	initial_gas_mix = "LAVALAND_ATMOS";
+	planetary_atmos = 1
 	},
 /area/station/engineering/atmos/mix)
 "iYc" = (
@@ -33056,7 +33096,8 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/item/gun/energy/recharge/kinetic_accelerator,
 /turf/open/floor/mineral/plastitanium{
-	initial_gas_mix = "LAVALAND_ATMOS"
+	initial_gas_mix = "LAVALAND_ATMOS";
+	planetary_atmos = 1
 	},
 /area/station/maintenance/space_hut/cabin)
 "jlY" = (
@@ -33572,7 +33613,8 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/item/kirbyplants/synthetic/plant28,
 /turf/open/floor/mineral/plastitanium{
-	initial_gas_mix = "LAVALAND_ATMOS"
+	initial_gas_mix = "LAVALAND_ATMOS";
+	planetary_atmos = 1
 	},
 /area/station/maintenance/space_hut/cabin)
 "jtz" = (
@@ -34277,7 +34319,8 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/engine/airless{
-	initial_gas_mix = "LAVALAND_ATMOS"
+	initial_gas_mix = "LAVALAND_ATMOS";
+	planetary_atmos = 1
 	},
 /area/station/engineering/atmos)
 "jCY" = (
@@ -34654,7 +34697,9 @@
 /area/station/command/heads_quarters/cmo)
 "jIo" = (
 /obj/structure/ore_vent/boss,
-/turf/open/misc/asteroid/basalt/wasteland,
+/turf/open/misc/asteroid/basalt/wasteland{
+	planetary_atmos = 1
+	},
 /area/lavaland/surface/outdoors)
 "jIv" = (
 /obj/structure/sign/departments/court/directional/west,
@@ -35499,7 +35544,9 @@
 /area/station/service/library/upper)
 "jUV" = (
 /obj/structure/flora/ash/cacti,
-/turf/open/misc/asteroid/basalt/wasteland,
+/turf/open/misc/asteroid/basalt/wasteland{
+	planetary_atmos = 1
+	},
 /area/lavaland/surface/outdoors)
 "jUZ" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -35692,7 +35739,8 @@
 	pixel_x = 6
 	},
 /turf/open/floor/engine/airless{
-	initial_gas_mix = "LAVALAND_ATMOS"
+	initial_gas_mix = "LAVALAND_ATMOS";
+	planetary_atmos = 1
 	},
 /area/lavaland/surface/outdoors)
 "jYh" = (
@@ -37653,7 +37701,8 @@
 /obj/machinery/air_sensor/bz_tank,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/engine/airless{
-	initial_gas_mix = "LAVALAND_ATMOS"
+	initial_gas_mix = "LAVALAND_ATMOS";
+	planetary_atmos = 1
 	},
 /area/station/engineering/atmos)
 "kAp" = (
@@ -38988,7 +39037,9 @@
 /area/station/cargo/storage)
 "kSl" = (
 /obj/structure/flora/ash/cap_shroom,
-/turf/open/misc/asteroid/basalt/wasteland,
+/turf/open/misc/asteroid/basalt/wasteland{
+	planetary_atmos = 1
+	},
 /area/lavaland/surface/outdoors)
 "kSp" = (
 /obj/effect/mob_spawn/ghost_role/human/syndicate{
@@ -39320,7 +39371,9 @@
 /area/station/security/office)
 "kXM" = (
 /obj/item/chair,
-/turf/open/floor/iron/freezer/lavaland,
+/turf/open/floor/iron/freezer/lavaland{
+	planetary_atmos = 1
+	},
 /area/station/maintenance/space_hut/cabin)
 "kXR" = (
 /obj/structure/railing/corner,
@@ -39559,7 +39612,9 @@
 /obj/structure/flora/tree/jungle/small/style_random,
 /obj/structure/flora/grass/jungle/a/style_random,
 /obj/structure/flora/bush/flowers_br/style_random,
-/turf/open/misc/asteroid/basalt/wasteland,
+/turf/open/misc/asteroid/basalt/wasteland{
+	planetary_atmos = 1
+	},
 /area/lavaland/surface/outdoors)
 "lbB" = (
 /obj/effect/spawner/random/structure/crate_abandoned,
@@ -41312,7 +41367,7 @@
 	dir = 1
 	},
 /obj/structure/cable,
-/turf/open/floor/iron/dark/textured_large,
+/turf/open/floor/iron/dark/telecomms,
 /area/station/ai_monitored/turret_protected/ai)
 "lyq" = (
 /obj/machinery/smartfridge,
@@ -41825,7 +41880,8 @@
 /obj/effect/decal/cleanable/blood/old,
 /obj/effect/spawner/random/maintenance,
 /turf/open/floor/mineral/plastitanium/red{
-	initial_gas_mix = "LAVALAND_ATMOS"
+	initial_gas_mix = "LAVALAND_ATMOS";
+	planetary_atmos = 1
 	},
 /area/station/maintenance/space_hut/cabin)
 "lGE" = (
@@ -43025,7 +43081,8 @@
 "lWk" = (
 /obj/item/melee/roastingstick,
 /turf/open/floor/engine/airless{
-	initial_gas_mix = "LAVALAND_ATMOS"
+	initial_gas_mix = "LAVALAND_ATMOS";
+	planetary_atmos = 1
 	},
 /area/lavaland/surface/outdoors)
 "lWr" = (
@@ -44129,7 +44186,9 @@
 "mkS" = (
 /obj/structure/flora/grass/jungle/a/style_random,
 /obj/structure/flora/bush/flowers_pp/style_random,
-/turf/open/misc/asteroid/basalt/wasteland,
+/turf/open/misc/asteroid/basalt/wasteland{
+	planetary_atmos = 1
+	},
 /area/lavaland/surface/outdoors)
 "mle" = (
 /obj/machinery/light/directional/south,
@@ -44160,7 +44219,8 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/item/climbing_hook,
 /turf/open/floor/mineral/plastitanium{
-	initial_gas_mix = "LAVALAND_ATMOS"
+	initial_gas_mix = "LAVALAND_ATMOS";
+	planetary_atmos = 1
 	},
 /area/station/maintenance/space_hut/cabin)
 "mlJ" = (
@@ -44647,7 +44707,9 @@
 "msg" = (
 /obj/structure/flora/bush/jungle/a/style_random,
 /obj/structure/flora/bush/flowers_pp/style_random,
-/turf/open/misc/asteroid/basalt/wasteland,
+/turf/open/misc/asteroid/basalt/wasteland{
+	planetary_atmos = 1
+	},
 /area/lavaland/surface/outdoors)
 "msA" = (
 /obj/structure/railing{
@@ -44984,7 +45046,8 @@
 /obj/effect/turf_decal/sand/plating/volcanic,
 /obj/effect/spawner/random/structure/crate_abandoned,
 /turf/open/floor/engine/airless{
-	initial_gas_mix = "LAVALAND_ATMOS"
+	initial_gas_mix = "LAVALAND_ATMOS";
+	planetary_atmos = 1
 	},
 /area/station/engineering/atmos/mix)
 "mxX" = (
@@ -45047,7 +45110,7 @@
 /turf/open/floor/glass/reinforced,
 /area/station/hallway/primary/central)
 "myw" = (
-/turf/open/openspace/lavaland,
+/turf/open/openspace,
 /area/station/hallway/secondary/exit/departure_lounge)
 "myx" = (
 /obj/effect/turf_decal/trimline/blue/warning{
@@ -45474,7 +45537,8 @@
 /area/station/security/execution/transfer)
 "mEX" = (
 /turf/open/floor/engine/airless{
-	initial_gas_mix = "LAVALAND_ATMOS"
+	initial_gas_mix = "LAVALAND_ATMOS";
+	planetary_atmos = 1
 	},
 /area/station/engineering/atmos/mix)
 "mFl" = (
@@ -46109,7 +46173,7 @@
 /obj/effect/turf_decal/siding/blue{
 	dir = 4
 	},
-/turf/open/floor/iron/dark,
+/turf/open/floor/iron/dark/telecomms,
 /area/station/science/server)
 "mPb" = (
 /turf/closed/wall/r_wall,
@@ -46464,7 +46528,7 @@
 	dir = 4
 	},
 /obj/machinery/light/dim/directional/south,
-/turf/open/floor/iron/dark,
+/turf/open/floor/iron/dark/telecomms,
 /area/station/science/server)
 "mSO" = (
 /obj/item/flashlight/flare,
@@ -48670,7 +48734,9 @@
 /area/station/science/xenobiology)
 "nAw" = (
 /obj/structure/flora/grass/jungle/a/style_random,
-/turf/open/misc/asteroid/basalt/wasteland,
+/turf/open/misc/asteroid/basalt/wasteland{
+	planetary_atmos = 1
+	},
 /area/lavaland/surface/outdoors)
 "nAD" = (
 /obj/machinery/portable_atmospherics/canister/nitrogen,
@@ -50269,7 +50335,8 @@
 	desc = "A tag on the back lists that he is part of an exclusive collection, which only one of was made! Find all 5, and perhaps Nanotrasen will reward you!"
 	},
 /turf/open/floor/engine/airless{
-	initial_gas_mix = "LAVALAND_ATMOS"
+	initial_gas_mix = "LAVALAND_ATMOS";
+	planetary_atmos = 1
 	},
 /area/station/engineering/atmos/mix)
 "nZM" = (
@@ -51075,7 +51142,8 @@
 /obj/effect/turf_decal/sand/plating/volcanic,
 /obj/effect/spawner/random/maintenance,
 /turf/open/floor/engine/airless{
-	initial_gas_mix = "LAVALAND_ATMOS"
+	initial_gas_mix = "LAVALAND_ATMOS";
+	planetary_atmos = 1
 	},
 /area/station/engineering/atmos/mix)
 "ona" = (
@@ -51564,7 +51632,8 @@
 /obj/effect/mapping_helpers/broken_floor,
 /obj/item/wirecutters,
 /turf/open/floor/engine/airless{
-	initial_gas_mix = "LAVALAND_ATMOS"
+	initial_gas_mix = "LAVALAND_ATMOS";
+	planetary_atmos = 1
 	},
 /area/lavaland/surface/outdoors)
 "ouA" = (
@@ -52490,9 +52559,7 @@
 /obj/structure/railing{
 	dir = 1
 	},
-/turf/open/floor/noslip{
-	icon_state = "textured_dark"
-	},
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/surface/outdoors)
 "oID" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -53096,7 +53163,8 @@
 "oSI" = (
 /obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/mineral/plastitanium{
-	initial_gas_mix = "LAVALAND_ATMOS"
+	initial_gas_mix = "LAVALAND_ATMOS";
+	planetary_atmos = 1
 	},
 /area/station/maintenance/space_hut/cabin)
 "oTp" = (
@@ -53598,7 +53666,9 @@
 "pbM" = (
 /obj/structure/marker_beacon/jade,
 /obj/structure/flora/bush/flowers_br/style_random,
-/turf/open/misc/asteroid/basalt/wasteland,
+/turf/open/misc/asteroid/basalt/wasteland{
+	planetary_atmos = 1
+	},
 /area/lavaland/surface/outdoors)
 "pbO" = (
 /obj/structure/dresser,
@@ -53790,7 +53860,9 @@
 "pej" = (
 /obj/structure/flora/bush/jungle/b/style_random,
 /obj/structure/flora/bush/flowers_br/style_random,
-/turf/open/misc/asteroid/basalt/wasteland,
+/turf/open/misc/asteroid/basalt/wasteland{
+	planetary_atmos = 1
+	},
 /area/lavaland/surface/outdoors)
 "pel" = (
 /obj/machinery/computer/old{
@@ -53940,7 +54012,9 @@
 /obj/structure/flora/tree/jungle/small/style_random,
 /obj/structure/flora/grass/jungle/a/style_random,
 /obj/structure/flora/bush/flowers_yw/style_random,
-/turf/open/misc/asteroid/basalt/wasteland,
+/turf/open/misc/asteroid/basalt/wasteland{
+	planetary_atmos = 1
+	},
 /area/lavaland/surface/outdoors)
 "pfY" = (
 /obj/machinery/light/dim/directional/north,
@@ -54894,7 +54968,9 @@
 "pun" = (
 /obj/structure/flora/bush/jungle/b/style_random,
 /obj/structure/flora/bush/flowers_yw/style_random,
-/turf/open/misc/asteroid/basalt/wasteland,
+/turf/open/misc/asteroid/basalt/wasteland{
+	planetary_atmos = 1
+	},
 /area/lavaland/surface/outdoors)
 "puo" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -57060,7 +57136,9 @@
 /area/station/medical/chemistry)
 "qbE" = (
 /obj/structure/flora/tree/jungle/small/style_random,
-/turf/open/misc/asteroid/basalt/wasteland,
+/turf/open/misc/asteroid/basalt/wasteland{
+	planetary_atmos = 1
+	},
 /area/lavaland/surface/outdoors)
 "qbF" = (
 /obj/item/kirbyplants/random,
@@ -58635,7 +58713,8 @@
 "qyH" = (
 /obj/effect/turf_decal/sand/plating/volcanic,
 /turf/open/floor/engine/airless{
-	initial_gas_mix = "LAVALAND_ATMOS"
+	initial_gas_mix = "LAVALAND_ATMOS";
+	planetary_atmos = 1
 	},
 /area/lavaland/surface/outdoors)
 "qyS" = (
@@ -58807,7 +58886,8 @@
 "qBq" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/plastitanium{
-	initial_gas_mix = "LAVALAND_ATMOS"
+	initial_gas_mix = "LAVALAND_ATMOS";
+	planetary_atmos = 1
 	},
 /area/station/maintenance/space_hut/cabin)
 "qBr" = (
@@ -58845,7 +58925,9 @@
 "qBJ" = (
 /obj/structure/flora/grass/jungle/a/style_random,
 /obj/structure/flora/bush/flowers_br/style_random,
-/turf/open/misc/asteroid/basalt/wasteland,
+/turf/open/misc/asteroid/basalt/wasteland{
+	planetary_atmos = 1
+	},
 /area/lavaland/surface/outdoors)
 "qBN" = (
 /obj/structure/window/reinforced/spawner/directional/south,
@@ -60561,7 +60643,9 @@
 /area/lavaland/surface/outdoors)
 "raW" = (
 /obj/structure/flora/bush/jungle/b/style_random,
-/turf/open/misc/asteroid/basalt/wasteland,
+/turf/open/misc/asteroid/basalt/wasteland{
+	planetary_atmos = 1
+	},
 /area/lavaland/surface/outdoors)
 "rbh" = (
 /obj/effect/turf_decal/bot,
@@ -60791,7 +60875,9 @@
 "rdL" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/broken/directional/north,
-/turf/open/floor/iron/freezer/lavaland,
+/turf/open/floor/iron/freezer/lavaland{
+	planetary_atmos = 1
+	},
 /area/station/maintenance/space_hut/cabin)
 "rdN" = (
 /obj/structure/window/reinforced/spawner/directional/north,
@@ -62722,7 +62808,9 @@
 "rEC" = (
 /obj/structure/flora/bush/jungle/a/style_random,
 /obj/structure/flora/bush/flowers_br/style_random,
-/turf/open/misc/asteroid/basalt/wasteland,
+/turf/open/misc/asteroid/basalt/wasteland{
+	planetary_atmos = 1
+	},
 /area/lavaland/surface/outdoors)
 "rEH" = (
 /obj/structure/railing{
@@ -63494,7 +63582,8 @@
 "rRm" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/engine/airless{
-	initial_gas_mix = "LAVALAND_ATMOS"
+	initial_gas_mix = "LAVALAND_ATMOS";
+	planetary_atmos = 1
 	},
 /area/station/engineering/atmos/mix)
 "rRo" = (
@@ -65115,7 +65204,8 @@
 /obj/structure/table_frame,
 /obj/effect/spawner/random/maintenance,
 /turf/open/floor/mineral/plastitanium/red{
-	initial_gas_mix = "LAVALAND_ATMOS"
+	initial_gas_mix = "LAVALAND_ATMOS";
+	planetary_atmos = 1
 	},
 /area/station/maintenance/space_hut/cabin)
 "sle" = (
@@ -65179,7 +65269,9 @@
 /area/station/engineering/main)
 "slT" = (
 /obj/structure/flora/bush/flowers_pp/style_random,
-/turf/open/misc/asteroid/basalt/wasteland,
+/turf/open/misc/asteroid/basalt/wasteland{
+	planetary_atmos = 1
+	},
 /area/lavaland/surface/outdoors)
 "slU" = (
 /obj/effect/turf_decal/tile/purple{
@@ -65496,7 +65588,8 @@
 /obj/structure/holosign/barrier/cyborg,
 /obj/effect/turf_decal/sand/plating/volcanic,
 /turf/open/floor/engine/hull{
-	initial_gas_mix = "LAVALAND_ATMOS"
+	initial_gas_mix = "LAVALAND_ATMOS";
+	planetary_atmos = 1
 	},
 /area/lavaland/surface/outdoors)
 "sqh" = (
@@ -66353,7 +66446,8 @@
 	name = "old mothic rations"
 	},
 /turf/open/floor/engine/airless{
-	initial_gas_mix = "LAVALAND_ATMOS"
+	initial_gas_mix = "LAVALAND_ATMOS";
+	planetary_atmos = 1
 	},
 /area/lavaland/surface/outdoors)
 "sCs" = (
@@ -66901,7 +66995,9 @@
 /obj/structure/flora/tree/jungle/style_random,
 /obj/structure/flora/grass/jungle/a/style_random,
 /obj/structure/flora/bush/flowers_pp/style_random,
-/turf/open/misc/asteroid/basalt/wasteland,
+/turf/open/misc/asteroid/basalt/wasteland{
+	planetary_atmos = 1
+	},
 /area/lavaland/surface/outdoors)
 "sLl" = (
 /obj/machinery/power/apc/auto_name/directional/west,
@@ -67492,7 +67588,8 @@
 /obj/effect/spawner/random/structure/crate_abandoned,
 /obj/effect/spawner/random/maintenance/three,
 /turf/open/floor/engine/airless{
-	initial_gas_mix = "LAVALAND_ATMOS"
+	initial_gas_mix = "LAVALAND_ATMOS";
+	planetary_atmos = 1
 	},
 /area/station/engineering/atmos/mix)
 "sUI" = (
@@ -68704,7 +68801,9 @@
 "tkG" = (
 /obj/structure/flora/bush/jungle/c/style_random,
 /obj/structure/flora/bush/flowers_br/style_random,
-/turf/open/misc/asteroid/basalt/wasteland,
+/turf/open/misc/asteroid/basalt/wasteland{
+	planetary_atmos = 1
+	},
 /area/lavaland/surface/outdoors)
 "tkM" = (
 /obj/machinery/door/airlock/public/glass{
@@ -69331,7 +69430,9 @@
 "ttl" = (
 /obj/structure/flora/tree/stump,
 /obj/structure/flora/bush/flowers_yw/style_random,
-/turf/open/misc/asteroid/basalt/wasteland,
+/turf/open/misc/asteroid/basalt/wasteland{
+	planetary_atmos = 1
+	},
 /area/lavaland/surface/outdoors)
 "ttr" = (
 /obj/effect/turf_decal/siding/purple{
@@ -71001,7 +71102,9 @@
 /obj/effect/decal/cleanable/blood/old{
 	name = "fool's drake blood"
 	},
-/turf/open/misc/asteroid/basalt/wasteland,
+/turf/open/misc/asteroid/basalt/wasteland{
+	planetary_atmos = 1
+	},
 /area/lavaland/surface/outdoors)
 "tSp" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible/layer1,
@@ -71792,7 +71895,8 @@
 "ucM" = (
 /obj/effect/turf_decal/sand/plating/volcanic,
 /turf/open/floor/engine/airless{
-	initial_gas_mix = "LAVALAND_ATMOS"
+	initial_gas_mix = "LAVALAND_ATMOS";
+	planetary_atmos = 1
 	},
 /area/station/engineering/atmos/mix)
 "ucV" = (
@@ -72742,7 +72846,9 @@
 /obj/item/storage/medkit/tactical_lite,
 /obj/item/storage/medkit/regular,
 /obj/effect/spawner/random/maintenance/two,
-/turf/open/floor/iron/freezer/lavaland,
+/turf/open/floor/iron/freezer/lavaland{
+	planetary_atmos = 1
+	},
 /area/station/maintenance/space_hut/cabin)
 "usd" = (
 /obj/machinery/light/small/directional/south,
@@ -73752,7 +73858,7 @@
 	dir = 1
 	},
 /obj/structure/railing,
-/turf/open/floor/noslip,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/surface/outdoors)
 "uFC" = (
 /obj/machinery/limbgrower,
@@ -76199,7 +76305,8 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/spawner/random/maintenance,
 /turf/open/floor/mineral/plastitanium{
-	initial_gas_mix = "LAVALAND_ATMOS"
+	initial_gas_mix = "LAVALAND_ATMOS";
+	planetary_atmos = 1
 	},
 /area/station/maintenance/space_hut/cabin)
 "vte" = (
@@ -76490,7 +76597,8 @@
 /obj/effect/turf_decal/sand/plating/volcanic,
 /obj/effect/spawner/random/structure/crate,
 /turf/open/floor/engine/airless{
-	initial_gas_mix = "LAVALAND_ATMOS"
+	initial_gas_mix = "LAVALAND_ATMOS";
+	planetary_atmos = 1
 	},
 /area/station/engineering/atmos/mix)
 "vxc" = (
@@ -76973,7 +77081,8 @@
 /obj/machinery/light/broken/directional/north,
 /obj/structure/chair/sofa/left/maroon,
 /turf/open/floor/mineral/plastitanium{
-	initial_gas_mix = "LAVALAND_ATMOS"
+	initial_gas_mix = "LAVALAND_ATMOS";
+	planetary_atmos = 1
 	},
 /area/station/maintenance/space_hut/cabin)
 "vEA" = (
@@ -77211,7 +77320,9 @@
 /area/station/maintenance/space_hut/cabin)
 "vHs" = (
 /obj/structure/flora/grass/jungle/b/style_random,
-/turf/open/misc/asteroid/basalt/wasteland,
+/turf/open/misc/asteroid/basalt/wasteland{
+	planetary_atmos = 1
+	},
 /area/lavaland/surface/outdoors)
 "vHu" = (
 /obj/structure/railing/corner{
@@ -77366,7 +77477,9 @@
 "vJI" = (
 /obj/structure/flora/grass/jungle/a/style_random,
 /obj/structure/flora/bush/flowers_yw/style_random,
-/turf/open/misc/asteroid/basalt/wasteland,
+/turf/open/misc/asteroid/basalt/wasteland{
+	planetary_atmos = 1
+	},
 /area/lavaland/surface/outdoors)
 "vJM" = (
 /obj/structure/table{
@@ -77418,7 +77531,9 @@
 /area/station/medical/chemistry)
 "vKz" = (
 /obj/structure/flora/ash/fireblossom,
-/turf/open/misc/asteroid/basalt/wasteland,
+/turf/open/misc/asteroid/basalt/wasteland{
+	planetary_atmos = 1
+	},
 /area/lavaland/surface/outdoors)
 "vKH" = (
 /obj/machinery/vending/wardrobe/gene_wardrobe{
@@ -78476,7 +78591,8 @@
 /obj/machinery/portable_atmospherics/canister,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/engine/airless{
-	initial_gas_mix = "LAVALAND_ATMOS"
+	initial_gas_mix = "LAVALAND_ATMOS";
+	planetary_atmos = 1
 	},
 /area/station/engineering/atmos)
 "vYF" = (
@@ -78836,7 +78952,8 @@
 "wdT" = (
 /obj/structure/chair/sofa/right/maroon,
 /turf/open/floor/mineral/plastitanium{
-	initial_gas_mix = "LAVALAND_ATMOS"
+	initial_gas_mix = "LAVALAND_ATMOS";
+	planetary_atmos = 1
 	},
 /area/station/maintenance/space_hut/cabin)
 "wed" = (
@@ -79026,7 +79143,8 @@
 /area/station/science/cytology)
 "whn" = (
 /turf/open/floor/mineral/plastitanium{
-	initial_gas_mix = "LAVALAND_ATMOS"
+	initial_gas_mix = "LAVALAND_ATMOS";
+	planetary_atmos = 1
 	},
 /area/station/maintenance/space_hut/cabin)
 "whz" = (
@@ -79242,7 +79360,9 @@
 /mob/living/simple_animal/hostile/megafauna/blood_drunk_miner/doom{
 	gps_name = "Grieving Signal"
 	},
-/turf/open/misc/asteroid/basalt/wasteland,
+/turf/open/misc/asteroid/basalt/wasteland{
+	planetary_atmos = 1
+	},
 /area/lavaland/surface/outdoors)
 "wkQ" = (
 /obj/effect/decal/cleanable/plasma,
@@ -79281,7 +79401,9 @@
 "wls" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/spawner/random/maintenance,
-/turf/open/floor/iron/freezer/lavaland,
+/turf/open/floor/iron/freezer/lavaland{
+	planetary_atmos = 1
+	},
 /area/station/maintenance/space_hut/cabin)
 "wlL" = (
 /obj/machinery/airalarm/directional/south,
@@ -80811,7 +80933,8 @@
 /obj/item/paper_bin,
 /obj/item/pen,
 /turf/open/floor/mineral/plastitanium{
-	initial_gas_mix = "LAVALAND_ATMOS"
+	initial_gas_mix = "LAVALAND_ATMOS";
+	planetary_atmos = 1
 	},
 /area/station/maintenance/space_hut/cabin)
 "wHr" = (
@@ -81293,7 +81416,9 @@
 /area/station/cargo/storage)
 "wNs" = (
 /obj/structure/flora/ash/tall_shroom,
-/turf/open/misc/asteroid/basalt/wasteland,
+/turf/open/misc/asteroid/basalt/wasteland{
+	planetary_atmos = 1
+	},
 /area/lavaland/surface/outdoors)
 "wNx" = (
 /obj/structure/stone_tile/center/cracked,
@@ -81462,7 +81587,9 @@
 	name = "bitrunning program: demonic";
 	color = "#6e695a"
 	},
-/turf/open/misc/asteroid/basalt/wasteland,
+/turf/open/misc/asteroid/basalt/wasteland{
+	planetary_atmos = 1
+	},
 /area/lavaland/surface/outdoors)
 "wPT" = (
 /obj/structure/disposaloutlet{
@@ -81753,7 +81880,9 @@
 	pixel_x = 6;
 	pixel_y = 13
 	},
-/turf/open/misc/asteroid/basalt/wasteland,
+/turf/open/misc/asteroid/basalt/wasteland{
+	planetary_atmos = 1
+	},
 /area/lavaland/surface/outdoors)
 "wUz" = (
 /turf/open/openspace,
@@ -81901,7 +82030,9 @@
 "wWp" = (
 /obj/structure/flora/bush/jungle/c/style_random,
 /obj/structure/flora/bush/flowers_yw/style_random,
-/turf/open/misc/asteroid/basalt/wasteland,
+/turf/open/misc/asteroid/basalt/wasteland{
+	planetary_atmos = 1
+	},
 /area/lavaland/surface/outdoors)
 "wWy" = (
 /obj/structure/lattice,
@@ -82632,7 +82763,10 @@
 /turf/open/floor/iron/smooth,
 /area/station/engineering/atmos/storage/gas)
 "xeO" = (
-/turf/open/floor/stone,
+/turf/open/floor/stone{
+	initial_gas_mix = "LAVALAND_ATMOS";
+	planetary_atmos = 1
+	},
 /area/lavaland/surface/outdoors)
 "xff" = (
 /obj/effect/turf_decal/siding/white{
@@ -83663,7 +83797,8 @@
 "xtQ" = (
 /obj/structure/tank_holder/extinguisher,
 /turf/open/floor/mineral/plastitanium{
-	initial_gas_mix = "LAVALAND_ATMOS"
+	initial_gas_mix = "LAVALAND_ATMOS";
+	planetary_atmos = 1
 	},
 /area/station/maintenance/space_hut/cabin)
 "xtV" = (
@@ -83851,7 +83986,9 @@
 "xxu" = (
 /obj/structure/flora/ash/cap_shroom,
 /obj/structure/flora/bush/flowers_br/style_random,
-/turf/open/misc/asteroid/basalt/wasteland,
+/turf/open/misc/asteroid/basalt/wasteland{
+	planetary_atmos = 1
+	},
 /area/lavaland/surface/outdoors)
 "xxv" = (
 /obj/effect/turf_decal/trimline/blue/filled/line{
@@ -84134,7 +84271,8 @@
 /obj/effect/decal/cleanable/greenglow,
 /obj/effect/decal/cleanable/glass/plastitanium,
 /turf/open/floor/mineral/plastitanium/red{
-	initial_gas_mix = "LAVALAND_ATMOS"
+	initial_gas_mix = "LAVALAND_ATMOS";
+	planetary_atmos = 1
 	},
 /area/station/maintenance/space_hut/cabin)
 "xAa" = (
@@ -84562,7 +84700,8 @@
 /obj/structure/ladder,
 /obj/effect/turf_decal/sand/plating/volcanic,
 /turf/open/floor/engine/airless{
-	initial_gas_mix = "LAVALAND_ATMOS"
+	initial_gas_mix = "LAVALAND_ATMOS";
+	planetary_atmos = 1
 	},
 /area/lavaland/surface/outdoors)
 "xGO" = (
@@ -247562,12 +247701,12 @@ fLm
 oeq
 oeq
 fLm
-rDS
-rDS
-rDS
-rDS
-rDS
-rDS
+jkm
+jkm
+jkm
+jkm
+jkm
+jkm
 rDS
 rDS
 rDS
@@ -247819,12 +247958,12 @@ onY
 nRy
 pVU
 oeq
-rDS
-rDS
-rDS
-rDS
-rDS
-rDS
+jkm
+jkm
+jkm
+jkm
+jkm
+jkm
 rDS
 rDS
 rDS
@@ -248076,12 +248215,12 @@ kMz
 jrI
 uwF
 oeq
-rDS
-rDS
-rDS
-rDS
-rDS
-rDS
+jkm
+jkm
+jkm
+jkm
+jkm
+jkm
 rDS
 rDS
 rDS
@@ -248333,12 +248472,12 @@ guF
 nDm
 sjb
 oeq
-rDS
-rDS
-rDS
-rDS
-rDS
-rDS
+jkm
+jkm
+jkm
+jkm
+jkm
+jkm
 rDS
 rDS
 rDS
@@ -248590,13 +248729,13 @@ fLm
 nDm
 fLm
 fLm
-rDS
-rDS
-rDS
-rDS
-rDS
-rDS
-rDS
+jkm
+jkm
+jkm
+jkm
+jkm
+jkm
+jkm
 rDS
 rDS
 rDS
@@ -248847,13 +248986,13 @@ fLm
 hAA
 fLm
 rDS
-rDS
-rDS
-rDS
-rDS
-rDS
-rDS
-rDS
+jkm
+jkm
+jkm
+jkm
+jkm
+jkm
+jkm
 rDS
 rDS
 rDS
@@ -249104,13 +249243,13 @@ fLm
 hAA
 fLm
 rDS
-rDS
-rDS
-rDS
-rDS
-rDS
-rDS
-rDS
+jkm
+jkm
+jkm
+jkm
+jkm
+jkm
+jkm
 rDS
 rDS
 rDS
@@ -249361,7 +249500,7 @@ fLm
 hAA
 fLm
 rDS
-rDS
+jkm
 tnh
 lNn
 lNn
