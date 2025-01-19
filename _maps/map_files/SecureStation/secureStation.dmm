@@ -20578,11 +20578,12 @@
 "fMf" = (
 /obj/docking_port/stationary{
 	dir = 8;
-	height = 5;
+	height = 7;
 	name = "arrivals";
 	roundstart_template = /datum/map_template/shuttle/arrival/secure;
 	shuttle_id = "arrival_stationary";
-	width = 7
+	width = 5;
+	dwidth = 3
 	},
 /turf/open/openspace/lavaland,
 /area/lavaland/surface/outdoors)
@@ -251726,8 +251727,8 @@ rDS
 rDS
 rDS
 rDS
-rDS
 fMf
+rDS
 rDS
 rDS
 iHZ

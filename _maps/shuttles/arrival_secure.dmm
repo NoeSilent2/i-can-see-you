@@ -46,9 +46,7 @@
 /area/shuttle/arrival)
 "Q" = (
 /obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
-/obj/docking_port/mobile/arrivals{
-	name = "secure arrivals shuttle"
-	},
+/obj/docking_port/mobile/arrivals,
 /turf/open/floor/plating,
 /area/shuttle/arrival)
 "T" = (
