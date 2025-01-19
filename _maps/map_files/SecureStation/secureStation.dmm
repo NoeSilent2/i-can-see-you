@@ -71,20 +71,9 @@
 /turf/open/floor/plating/lavaland_atmos,
 /area/station/science/ordnance/bomb)
 "abf" = (
-/obj/docking_port/stationary{
-	dir = 8;
-	height = 7;
-	name = "arrivals";
-	roundstart_template = /datum/map_template/shuttle/arrival/secure;
-	shuttle_id = "arrival_stationary";
-	width = 5;
-	dwidth = 3
-	},
-/turf/open/openspace/airless/planetary{
-	initial_gas_mix = "LAVALAND_ATMOS";
-	name = "lavaland"
-	},
-/area/lavaland/surface/outdoors)
+/obj/machinery/status_display/shuttle,
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/station/security/checkpoint/customs)
 "abm" = (
 /obj/structure/table,
 /obj/item/toy/toy_xeno{
@@ -5523,6 +5512,20 @@
 	},
 /turf/open/floor/iron/smooth,
 /area/station/commons/storage/primary)
+"bxG" = (
+/obj/docking_port/stationary{
+	dir = 8;
+	height = 7;
+	name = "arrivals";
+	roundstart_template = /datum/map_template/shuttle/arrival/secure;
+	shuttle_id = "arrival_stationary";
+	width = 5
+	},
+/turf/open/openspace/airless/planetary{
+	initial_gas_mix = "LAVALAND_ATMOS";
+	name = "lavaland"
+	},
+/area/lavaland/surface/outdoors)
 "bxP" = (
 /obj/structure/table/wood,
 /obj/item/folder/blue,
@@ -17990,6 +17993,10 @@
 /obj/structure/closet/crate/solarpanel_small,
 /turf/open/floor/iron/textured_large,
 /area/station/engineering/main)
+"eYk" = (
+/obj/machinery/status_display/shuttle,
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/station/hallway/secondary/entry)
 "eYP" = (
 /obj/structure/reagent_dispensers/watertank{
 	reagent_id = /datum/reagent/water/holywater;
@@ -184725,7 +184732,7 @@ rDS
 rDS
 ucV
 ucV
-ucV
+abf
 ucV
 ucV
 lhz
@@ -186267,7 +186274,7 @@ rDS
 rDS
 ucV
 ucV
-ucV
+abf
 ucV
 ucV
 kIl
@@ -249997,7 +250004,7 @@ rDS
 cKk
 cKk
 iHZ
-cKk
+eYk
 jHR
 oEv
 nXm
@@ -250260,7 +250267,7 @@ oEv
 nXm
 ucV
 ucV
-ucV
+abf
 ucV
 ucV
 ucV
@@ -251790,7 +251797,7 @@ rDS
 rDS
 rDS
 rDS
-abf
+bxG
 rDS
 rDS
 iHZ
@@ -251802,7 +251809,7 @@ idM
 nXm
 ucV
 ucV
-ucV
+abf
 ucV
 ucV
 ucV
@@ -252053,7 +252060,7 @@ rDS
 cKk
 cKk
 iHZ
-cKk
+eYk
 xNe
 oEv
 nXm
