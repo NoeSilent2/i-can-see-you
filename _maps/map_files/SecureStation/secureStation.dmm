@@ -889,10 +889,7 @@
 /turf/open/floor/iron,
 /area/station/engineering/atmos/mix)
 "amX" = (
-/turf/open/openspace/airless/planetary{
-	initial_gas_mix = "LAVALAND_ATMOS";
-	name = "lavaland"
-	},
+/turf/open/openspace/lavaland,
 /area/ruin/unpowered/ash_walkers)
 "ani" = (
 /turf/open/floor/glass/reinforced/icemoon{
@@ -945,10 +942,7 @@
 /turf/open/floor/wood/parquet,
 /area/station/command/meeting_room)
 "aoy" = (
-/turf/open/openspace/airless/planetary{
-	initial_gas_mix = "LAVALAND_ATMOS";
-	name = "lavaland"
-	},
+/turf/open/openspace/lavaland,
 /area/station/cargo/storage)
 "aoC" = (
 /obj/structure/cable,
@@ -2093,10 +2087,7 @@
 "aDL" = (
 /obj/structure/lattice/catwalk,
 /obj/effect/spawner/random/structure/crate_abandoned,
-/turf/open/openspace/airless/planetary{
-	initial_gas_mix = "LAVALAND_ATMOS";
-	name = "lavaland"
-	},
+/turf/open/openspace/lavaland,
 /area/lavaland/surface/outdoors)
 "aDQ" = (
 /obj/effect/decal/cleanable/dirt,
@@ -3417,10 +3408,7 @@
 /obj/structure/railing{
 	dir = 8
 	},
-/turf/open/openspace/airless/planetary{
-	initial_gas_mix = "LAVALAND_ATMOS";
-	name = "lavaland"
-	},
+/turf/open/openspace/lavaland,
 /area/lavaland/surface/outdoors)
 "aVJ" = (
 /obj/structure/chair{
@@ -5804,10 +5792,7 @@
 "bBW" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/ladder,
-/turf/open/openspace/airless/planetary{
-	initial_gas_mix = "LAVALAND_ATMOS";
-	name = "lavaland"
-	},
+/turf/open/openspace/lavaland,
 /area/lavaland/surface/outdoors)
 "bBY" = (
 /obj/effect/turf_decal/siding{
@@ -5937,10 +5922,7 @@
 /obj/machinery/atmospherics/components/unary/passive_vent/layer2{
 	dir = 1
 	},
-/turf/open/openspace/airless/planetary{
-	initial_gas_mix = "LAVALAND_ATMOS";
-	name = "lavaland"
-	},
+/turf/open/openspace/lavaland,
 /area/lavaland/surface/outdoors)
 "bEd" = (
 /obj/effect/turf_decal/stripes/line{
@@ -6970,10 +6952,7 @@
 	dir = 4
 	},
 /obj/structure/lattice/catwalk,
-/turf/open/openspace/airless/planetary{
-	initial_gas_mix = "LAVALAND_ATMOS";
-	name = "lavaland"
-	},
+/turf/open/openspace/lavaland,
 /area/lavaland/surface/outdoors)
 "bVN" = (
 /obj/effect/turf_decal/siding{
@@ -8922,10 +8901,7 @@
 /turf/open/floor/plating/lavaland_atmos,
 /area/station/construction/mining)
 "czT" = (
-/turf/open/openspace/airless/planetary{
-	initial_gas_mix = "LAVALAND_ATMOS";
-	name = "lavaland"
-	},
+/turf/open/openspace/lavaland,
 /area/station/engineering/atmos/mix)
 "cAb" = (
 /obj/structure/table/reinforced/rglass,
@@ -9484,10 +9460,7 @@
 /obj/structure/railing{
 	dir = 1
 	},
-/turf/open/openspace/airless/planetary{
-	initial_gas_mix = "LAVALAND_ATMOS";
-	name = "lavaland"
-	},
+/turf/open/openspace/lavaland,
 /area/lavaland/surface/outdoors)
 "cHt" = (
 /obj/machinery/light/directional/west,
@@ -10247,18 +10220,12 @@
 "cRq" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/marker_beacon/bronze,
-/turf/open/openspace/airless/planetary{
-	initial_gas_mix = "LAVALAND_ATMOS";
-	name = "lavaland"
-	},
+/turf/open/openspace/lavaland,
 /area/lavaland/surface/outdoors)
 "cRM" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/lattice,
-/turf/open/openspace/airless/planetary{
-	initial_gas_mix = "LAVALAND_ATMOS";
-	name = "lavaland"
-	},
+/turf/open/openspace/lavaland,
 /area/lavaland/surface/outdoors)
 "cRN" = (
 /obj/machinery/door/poddoor{
@@ -10773,10 +10740,7 @@
 "dav" = (
 /obj/structure/lattice/catwalk,
 /obj/effect/spawner/random/structure/girder,
-/turf/open/openspace/airless/planetary{
-	initial_gas_mix = "LAVALAND_ATMOS";
-	name = "lavaland"
-	},
+/turf/open/openspace/lavaland,
 /area/lavaland/surface/outdoors)
 "daD" = (
 /turf/closed/wall/r_wall,
@@ -10838,10 +10802,7 @@
 /obj/structure/railing{
 	dir = 4
 	},
-/turf/open/openspace/airless/planetary{
-	initial_gas_mix = "LAVALAND_ATMOS";
-	name = "lavaland"
-	},
+/turf/open/openspace/lavaland,
 /area/lavaland/surface/outdoors)
 "dbq" = (
 /obj/machinery/duct,
@@ -11906,10 +11867,7 @@
 	dir = 4
 	},
 /obj/structure/cable,
-/turf/open/openspace/airless/planetary{
-	initial_gas_mix = "LAVALAND_ATMOS";
-	name = "lavaland"
-	},
+/turf/open/openspace/lavaland,
 /area/lavaland/surface/outdoors)
 "dqP" = (
 /obj/structure/closet/crate/eva,
@@ -15093,10 +15051,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/open/openspace/airless/planetary{
-	initial_gas_mix = "LAVALAND_ATMOS";
-	name = "lavaland"
-	},
+/turf/open/openspace/lavaland,
 /area/lavaland/surface/outdoors)
 "ehC" = (
 /obj/effect/turf_decal/trimline/blue/line{
@@ -15153,10 +15108,7 @@
 "eir" = (
 /obj/structure/lattice,
 /obj/machinery/light/directional/east,
-/turf/open/openspace/airless/planetary{
-	initial_gas_mix = "LAVALAND_ATMOS";
-	name = "lavaland"
-	},
+/turf/open/openspace/lavaland,
 /area/lavaland/surface/outdoors)
 "eiy" = (
 /obj/effect/spawner/structure/window/reinforced/shuttle,
@@ -16600,10 +16552,7 @@
 "eCG" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/disposalpipe/segment,
-/turf/open/openspace/airless/planetary{
-	initial_gas_mix = "LAVALAND_ATMOS";
-	name = "lavaland"
-	},
+/turf/open/openspace/lavaland,
 /area/lavaland/surface/outdoors)
 "eCJ" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
@@ -20605,10 +20554,7 @@
 	shuttle_id = "arrival_stationary";
 	width = 7
 	},
-/turf/open/openspace/airless/planetary{
-	initial_gas_mix = "LAVALAND_ATMOS";
-	name = "lavaland"
-	},
+/turf/open/openspace/lavaland,
 /area/lavaland/surface/outdoors)
 "fMh" = (
 /obj/effect/turf_decal/siding/white{
@@ -20810,10 +20756,7 @@
 "fOZ" = (
 /obj/machinery/atmospherics/components/unary/passive_vent,
 /obj/structure/lattice,
-/turf/open/openspace/airless/planetary{
-	initial_gas_mix = "LAVALAND_ATMOS";
-	name = "lavaland"
-	},
+/turf/open/openspace/lavaland,
 /area/lavaland/surface/outdoors)
 "fPn" = (
 /turf/closed/wall/r_wall,
@@ -22350,10 +22293,7 @@
 	dir = 5
 	},
 /obj/structure/cable,
-/turf/open/openspace/airless/planetary{
-	initial_gas_mix = "LAVALAND_ATMOS";
-	name = "lavaland"
-	},
+/turf/open/openspace/lavaland,
 /area/lavaland/surface/outdoors)
 "gmq" = (
 /obj/effect/turf_decal/trimline/brown/line{
@@ -24255,10 +24195,7 @@
 /obj/machinery/atmospherics/components/unary/passive_vent/layer2{
 	dir = 4
 	},
-/turf/open/openspace/airless/planetary{
-	initial_gas_mix = "LAVALAND_ATMOS";
-	name = "lavaland"
-	},
+/turf/open/openspace/lavaland,
 /area/lavaland/surface/outdoors)
 "gML" = (
 /obj/structure/cable,
@@ -24935,10 +24872,7 @@
 	dir = 1
 	},
 /obj/structure/marker_beacon/burgundy,
-/turf/open/openspace/airless/planetary{
-	initial_gas_mix = "LAVALAND_ATMOS";
-	name = "lavaland"
-	},
+/turf/open/openspace/lavaland,
 /area/lavaland/surface/outdoors)
 "gVV" = (
 /obj/structure/bed,
@@ -25182,10 +25116,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/open/openspace/airless/planetary{
-	initial_gas_mix = "LAVALAND_ATMOS";
-	name = "lavaland"
-	},
+/turf/open/openspace/lavaland,
 /area/lavaland/surface/outdoors)
 "ham" = (
 /obj/effect/turf_decal/trimline/dark_blue/corner{
@@ -28016,10 +27947,7 @@
 	},
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/openspace/airless/planetary{
-	initial_gas_mix = "LAVALAND_ATMOS";
-	name = "lavaland"
-	},
+/turf/open/openspace/lavaland,
 /area/lavaland/surface/outdoors)
 "hQJ" = (
 /obj/effect/turf_decal/siding/purple{
@@ -28751,10 +28679,7 @@
 "ibh" = (
 /obj/structure/lattice,
 /obj/structure/window/reinforced/spawner/directional/west,
-/turf/open/openspace/airless/planetary{
-	initial_gas_mix = "LAVALAND_ATMOS";
-	name = "lavaland"
-	},
+/turf/open/openspace/lavaland,
 /area/lavaland/surface/outdoors)
 "ibt" = (
 /obj/effect/turf_decal/tile/purple/diagonal_centre,
@@ -30727,10 +30652,7 @@
 /obj/effect/spawner/random/structure/grille{
 	pixel_x = -1
 	},
-/turf/open/openspace/airless/planetary{
-	initial_gas_mix = "LAVALAND_ATMOS";
-	name = "lavaland"
-	},
+/turf/open/openspace/lavaland,
 /area/lavaland/surface/outdoors)
 "iEO" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/dark/visible,
@@ -31000,10 +30922,7 @@
 /obj/machinery/atmospherics/components/unary/passive_vent{
 	dir = 8
 	},
-/turf/open/openspace/airless/planetary{
-	initial_gas_mix = "LAVALAND_ATMOS";
-	name = "lavaland"
-	},
+/turf/open/openspace/lavaland,
 /area/lavaland/surface/outdoors)
 "iHZ" = (
 /obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
@@ -31856,10 +31775,7 @@
 "iUn" = (
 /obj/structure/sign/departments/medbay/alt/directional/south,
 /obj/structure/lattice,
-/turf/open/openspace/airless/planetary{
-	initial_gas_mix = "LAVALAND_ATMOS";
-	name = "lavaland"
-	},
+/turf/open/openspace/lavaland,
 /area/lavaland/surface/outdoors)
 "iUo" = (
 /obj/structure/cable,
@@ -32192,10 +32108,7 @@
 "iZv" = (
 /obj/structure/lattice,
 /obj/effect/spawner/random/structure/grille,
-/turf/open/openspace/airless/planetary{
-	initial_gas_mix = "LAVALAND_ATMOS";
-	name = "lavaland"
-	},
+/turf/open/openspace/lavaland,
 /area/lavaland/surface/outdoors)
 "iZA" = (
 /obj/structure/closet/crate{
@@ -35336,10 +35249,7 @@
 	shuttle_id = "ferry_home";
 	width = 5
 	},
-/turf/open/openspace/airless/planetary{
-	initial_gas_mix = "LAVALAND_ATMOS";
-	name = "lavaland"
-	},
+/turf/open/openspace/lavaland,
 /area/lavaland/surface/outdoors)
 "jQZ" = (
 /obj/effect/turf_decal/siding/white{
@@ -35489,10 +35399,7 @@
 "jTf" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/marker_beacon/burgundy,
-/turf/open/openspace/airless/planetary{
-	initial_gas_mix = "LAVALAND_ATMOS";
-	name = "lavaland"
-	},
+/turf/open/openspace/lavaland,
 /area/lavaland/surface/outdoors)
 "jTj" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
@@ -35555,10 +35462,7 @@
 	dir = 4
 	},
 /obj/structure/cable,
-/turf/open/openspace/airless/planetary{
-	initial_gas_mix = "LAVALAND_ATMOS";
-	name = "lavaland"
-	},
+/turf/open/openspace/lavaland,
 /area/lavaland/surface/outdoors)
 "jUq" = (
 /obj/machinery/camera/xray{
@@ -40363,10 +40267,7 @@
 /obj/item/tank/internals/oxygen,
 /obj/item/clothing/mask/breath,
 /obj/effect/spawner/random/maintenance/two,
-/turf/open/openspace/airless/planetary{
-	initial_gas_mix = "LAVALAND_ATMOS";
-	name = "lavaland"
-	},
+/turf/open/openspace/lavaland,
 /area/lavaland/surface/outdoors)
 "lkn" = (
 /obj/effect/turf_decal/trimline/dark_red/filled/corner,
@@ -41217,10 +41118,7 @@
 /obj/structure/railing{
 	dir = 1
 	},
-/turf/open/openspace/airless/planetary{
-	initial_gas_mix = "LAVALAND_ATMOS";
-	name = "lavaland"
-	},
+/turf/open/openspace/lavaland,
 /area/lavaland/surface/outdoors)
 "lwv" = (
 /obj/structure/cable,
@@ -42780,10 +42678,7 @@
 	dir = 1
 	},
 /obj/structure/marker_beacon/burgundy,
-/turf/open/openspace/airless/planetary{
-	initial_gas_mix = "LAVALAND_ATMOS";
-	name = "lavaland"
-	},
+/turf/open/openspace/lavaland,
 /area/lavaland/surface/outdoors)
 "lRP" = (
 /obj/structure/lattice/catwalk,
@@ -43161,10 +43056,7 @@
 /obj/structure/railing/corner{
 	dir = 8
 	},
-/turf/open/openspace/airless/planetary{
-	initial_gas_mix = "LAVALAND_ATMOS";
-	name = "lavaland"
-	},
+/turf/open/openspace/lavaland,
 /area/lavaland/surface/outdoors)
 "lWI" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
@@ -44438,10 +44330,7 @@
 /area/station/ai_monitored/command/nuke_storage)
 "moB" = (
 /obj/structure/sign/departments/science/alt/directional/west,
-/turf/open/openspace/airless/planetary{
-	initial_gas_mix = "LAVALAND_ATMOS";
-	name = "lavaland"
-	},
+/turf/open/openspace/lavaland,
 /area/lavaland/surface/outdoors)
 "moD" = (
 /obj/effect/turf_decal/siding/wood{
@@ -45005,10 +44894,7 @@
 /obj/effect/spawner/random/structure/girder,
 /obj/effect/spawner/random/structure/grille,
 /obj/structure/cable,
-/turf/open/openspace/airless/planetary{
-	initial_gas_mix = "LAVALAND_ATMOS";
-	name = "lavaland"
-	},
+/turf/open/openspace/lavaland,
 /area/lavaland/surface/outdoors)
 "mwm" = (
 /obj/machinery/computer/crew{
@@ -45161,10 +45047,7 @@
 /turf/open/floor/glass/reinforced,
 /area/station/hallway/primary/central)
 "myw" = (
-/turf/open/openspace/airless/planetary{
-	initial_gas_mix = "LAVALAND_ATMOS";
-	name = "lavaland"
-	},
+/turf/open/openspace/lavaland,
 /area/station/hallway/secondary/exit/departure_lounge)
 "myx" = (
 /obj/effect/turf_decal/trimline/blue/warning{
@@ -46158,10 +46041,7 @@
 /area/station/security/execution/transfer)
 "mNZ" = (
 /obj/structure/lattice/catwalk,
-/turf/open/openspace/airless/planetary{
-	initial_gas_mix = "LAVALAND_ATMOS";
-	name = "lavaland"
-	},
+/turf/open/openspace/lavaland,
 /area/lavaland/surface/outdoors)
 "mOb" = (
 /obj/effect/turf_decal/trimline/white/warning{
@@ -46477,10 +46357,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/open/openspace/airless/planetary{
-	initial_gas_mix = "LAVALAND_ATMOS";
-	name = "lavaland"
-	},
+/turf/open/openspace/lavaland,
 /area/lavaland/surface/outdoors)
 "mRH" = (
 /obj/effect/turf_decal/trimline/yellow/warning,
@@ -46783,10 +46660,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/open/openspace/airless/planetary{
-	initial_gas_mix = "LAVALAND_ATMOS";
-	name = "lavaland"
-	},
+/turf/open/openspace/lavaland,
 /area/lavaland/surface/outdoors)
 "mVU" = (
 /obj/machinery/atmospherics/components/binary/pump{
@@ -57258,10 +57132,7 @@
 "qcp" = (
 /obj/structure/lattice,
 /obj/effect/spawner/random/maintenance,
-/turf/open/openspace/airless/planetary{
-	initial_gas_mix = "LAVALAND_ATMOS";
-	name = "lavaland"
-	},
+/turf/open/openspace/lavaland,
 /area/lavaland/surface/outdoors)
 "qcw" = (
 /obj/machinery/door/airlock/command/glass{
@@ -58295,10 +58166,7 @@
 /obj/structure/railing{
 	dir = 8
 	},
-/turf/open/openspace/airless/planetary{
-	initial_gas_mix = "LAVALAND_ATMOS";
-	name = "lavaland"
-	},
+/turf/open/openspace/lavaland,
 /area/lavaland/surface/outdoors)
 "qsE" = (
 /obj/structure/table/wood,
@@ -60389,10 +60257,7 @@
 /obj/structure/railing{
 	dir = 6
 	},
-/turf/open/openspace/airless/planetary{
-	initial_gas_mix = "LAVALAND_ATMOS";
-	name = "lavaland"
-	},
+/turf/open/openspace/lavaland,
 /area/lavaland/surface/outdoors)
 "qVN" = (
 /obj/structure/table/wood,
@@ -60574,10 +60439,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 10
 	},
-/turf/open/openspace/airless/planetary{
-	initial_gas_mix = "LAVALAND_ATMOS";
-	name = "lavaland"
-	},
+/turf/open/openspace/lavaland,
 /area/lavaland/surface/outdoors)
 "qZj" = (
 /obj/effect/decal/cleanable/dirt,
@@ -61627,10 +61489,7 @@
 	shuttle_id = "emergency_home";
 	width = 29
 	},
-/turf/open/openspace/airless/planetary{
-	initial_gas_mix = "LAVALAND_ATMOS";
-	name = "lavaland"
-	},
+/turf/open/openspace/lavaland,
 /area/lavaland/surface/outdoors)
 "roe" = (
 /obj/structure/table/bronze,
@@ -62067,10 +61926,7 @@
 /area/station/cargo/storage)
 "rsN" = (
 /obj/structure/lattice,
-/turf/open/openspace/airless/planetary{
-	initial_gas_mix = "LAVALAND_ATMOS";
-	name = "lavaland"
-	},
+/turf/open/openspace/lavaland,
 /area/lavaland/surface/outdoors)
 "rsX" = (
 /obj/structure/table/wood,
@@ -62799,10 +62655,7 @@
 /turf/open/floor/iron/smooth,
 /area/station/hallway/secondary/recreation)
 "rDS" = (
-/turf/open/openspace/airless/planetary{
-	initial_gas_mix = "LAVALAND_ATMOS";
-	name = "lavaland"
-	},
+/turf/open/openspace/lavaland,
 /area/lavaland/surface/outdoors)
 "rDU" = (
 /obj/structure/railing{
@@ -63234,10 +63087,7 @@
 "rMf" = (
 /obj/structure/lattice,
 /obj/structure/window/reinforced/spawner/directional/east,
-/turf/open/openspace/airless/planetary{
-	initial_gas_mix = "LAVALAND_ATMOS";
-	name = "lavaland"
-	},
+/turf/open/openspace/lavaland,
 /area/lavaland/surface/outdoors)
 "rMg" = (
 /obj/structure/stone_tile/slab/cracked{
@@ -63510,10 +63360,7 @@
 /obj/structure/railing{
 	dir = 10
 	},
-/turf/open/openspace/airless/planetary{
-	initial_gas_mix = "LAVALAND_ATMOS";
-	name = "lavaland"
-	},
+/turf/open/openspace/lavaland,
 /area/lavaland/surface/outdoors)
 "rPA" = (
 /obj/effect/turf_decal/stripes/line{
@@ -67010,10 +66857,7 @@
 	dir = 1
 	},
 /obj/structure/cable,
-/turf/open/openspace/airless/planetary{
-	initial_gas_mix = "LAVALAND_ATMOS";
-	name = "lavaland"
-	},
+/turf/open/openspace/lavaland,
 /area/lavaland/surface/outdoors)
 "sKD" = (
 /obj/effect/turf_decal/siding,
@@ -67146,10 +66990,7 @@
 "sMx" = (
 /obj/machinery/atmospherics/pipe/smart/simple/purple/visible,
 /obj/structure/lattice,
-/turf/open/openspace/airless/planetary{
-	initial_gas_mix = "LAVALAND_ATMOS";
-	name = "lavaland"
-	},
+/turf/open/openspace/lavaland,
 /area/lavaland/surface/outdoors)
 "sMz" = (
 /obj/structure/extinguisher_cabinet/directional/west,
@@ -67200,10 +67041,7 @@
 	dir = 4
 	},
 /obj/structure/marker_beacon/burgundy,
-/turf/open/openspace/airless/planetary{
-	initial_gas_mix = "LAVALAND_ATMOS";
-	name = "lavaland"
-	},
+/turf/open/openspace/lavaland,
 /area/lavaland/surface/outdoors)
 "sNw" = (
 /obj/structure/chair,
@@ -67512,10 +67350,7 @@
 "sSz" = (
 /obj/structure/lattice/catwalk,
 /obj/item/target/syndicate,
-/turf/open/openspace/airless/planetary{
-	initial_gas_mix = "LAVALAND_ATMOS";
-	name = "lavaland"
-	},
+/turf/open/openspace/lavaland,
 /area/lavaland/surface/outdoors)
 "sSF" = (
 /obj/machinery/door/airlock/glass,
@@ -69831,10 +69666,7 @@
 /obj/structure/lattice,
 /obj/effect/spawner/random/structure/girder,
 /obj/effect/spawner/random/structure/grille,
-/turf/open/openspace/airless/planetary{
-	initial_gas_mix = "LAVALAND_ATMOS";
-	name = "lavaland"
-	},
+/turf/open/openspace/lavaland,
 /area/lavaland/surface/outdoors)
 "tzb" = (
 /obj/effect/turf_decal/stripes/line{
@@ -70685,10 +70517,7 @@
 	dir = 8
 	},
 /obj/structure/disposalpipe/segment,
-/turf/open/openspace/airless/planetary{
-	initial_gas_mix = "LAVALAND_ATMOS";
-	name = "lavaland"
-	},
+/turf/open/openspace/lavaland,
 /area/lavaland/surface/outdoors)
 "tLb" = (
 /obj/effect/turf_decal/siding/wood{
@@ -71139,10 +70968,7 @@
 	dir = 1
 	},
 /obj/structure/railing,
-/turf/open/openspace/airless/planetary{
-	initial_gas_mix = "LAVALAND_ATMOS";
-	name = "lavaland"
-	},
+/turf/open/openspace/lavaland,
 /area/lavaland/surface/outdoors)
 "tRN" = (
 /obj/effect/turf_decal/trimline/red/warning,
@@ -71535,10 +71361,7 @@
 "tXu" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/railing,
-/turf/open/openspace/airless/planetary{
-	initial_gas_mix = "LAVALAND_ATMOS";
-	name = "lavaland"
-	},
+/turf/open/openspace/lavaland,
 /area/lavaland/surface/outdoors)
 "tXA" = (
 /obj/effect/turf_decal/siding/wood{
@@ -71811,10 +71634,7 @@
 "ubp" = (
 /obj/structure/lattice,
 /obj/machinery/atmospherics/pipe/smart/simple/orange/visible,
-/turf/open/openspace/airless/planetary{
-	initial_gas_mix = "LAVALAND_ATMOS";
-	name = "lavaland"
-	},
+/turf/open/openspace/lavaland,
 /area/lavaland/surface/outdoors)
 "ubv" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
@@ -73330,10 +73150,7 @@
 	},
 /obj/structure/marker_beacon/burgundy,
 /obj/structure/disposalpipe/segment,
-/turf/open/openspace/airless/planetary{
-	initial_gas_mix = "LAVALAND_ATMOS";
-	name = "lavaland"
-	},
+/turf/open/openspace/lavaland,
 /area/lavaland/surface/outdoors)
 "uwE" = (
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
@@ -74713,10 +74530,7 @@
 /area/station/service/bar)
 "uSM" = (
 /obj/structure/marker_beacon/burgundy,
-/turf/open/openspace/airless/planetary{
-	initial_gas_mix = "LAVALAND_ATMOS";
-	name = "lavaland"
-	},
+/turf/open/openspace/lavaland,
 /area/lavaland/surface/outdoors)
 "uSS" = (
 /obj/effect/turf_decal/siding/wood,
@@ -77007,10 +76821,7 @@
 /obj/structure/railing{
 	dir = 4
 	},
-/turf/open/openspace/airless/planetary{
-	initial_gas_mix = "LAVALAND_ATMOS";
-	name = "lavaland"
-	},
+/turf/open/openspace/lavaland,
 /area/lavaland/surface/outdoors)
 "vCA" = (
 /obj/structure/table/optable,
@@ -80206,10 +80017,7 @@
 	dir = 1
 	},
 /obj/structure/cable,
-/turf/open/openspace/airless/planetary{
-	initial_gas_mix = "LAVALAND_ATMOS";
-	name = "lavaland"
-	},
+/turf/open/openspace/lavaland,
 /area/lavaland/surface/outdoors)
 "wuz" = (
 /obj/effect/turf_decal/siding{
@@ -81021,10 +80829,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/open/openspace/airless/planetary{
-	initial_gas_mix = "LAVALAND_ATMOS";
-	name = "lavaland"
-	},
+/turf/open/openspace/lavaland,
 /area/lavaland/surface/outdoors)
 "wHG" = (
 /obj/machinery/button/door{
@@ -82103,10 +81908,7 @@
 /obj/machinery/atmospherics/components/unary/passive_vent/layer2{
 	dir = 1
 	},
-/turf/open/openspace/airless/planetary{
-	initial_gas_mix = "LAVALAND_ATMOS";
-	name = "lavaland"
-	},
+/turf/open/openspace/lavaland,
 /area/lavaland/surface/outdoors)
 "wWz" = (
 /obj/effect/turf_decal/tile/purple/opposingcorners,
@@ -85883,10 +85685,7 @@
 	dir = 4
 	},
 /obj/structure/cable,
-/turf/open/openspace/airless/planetary{
-	initial_gas_mix = "LAVALAND_ATMOS";
-	name = "lavaland"
-	},
+/turf/open/openspace/lavaland,
 /area/lavaland/surface/outdoors)
 "xTg" = (
 /obj/effect/decal/cleanable/dirt,
