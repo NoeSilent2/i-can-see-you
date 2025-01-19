@@ -30,7 +30,3 @@
 /datum/map_template/shuttle/cargo/nebula
 	suffix = "nebula"
 	name = "supply shuttle (Nebula)"
-
-/datum/map_template/shuttle/cargo/secure
-	suffix = "secure"
-	name = "supply shuttle (Secure)"
