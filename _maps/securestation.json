@@ -1,0 +1,49 @@
+{
+	"version": 1,
+	"map_name": "Secure Station",
+	"map_path": "map_files/secureStation",
+	"map_file": "secureStation.dmm",
+	"space_ruin_levels": 0,
+	"space_empty_levels": 0,
+	"planetary": 1,
+	"shuttles": {
+		"cargo": "cargo_northstar",
+		"ferry": "ferry_fancy",
+		"whiteship": "whiteship_box",
+		"emergency": "emergency_box"
+	},
+	"traits": [
+		{
+			"Up": true,
+			"Mining": true,
+			"Linkage": "Cross",
+			"Gravity": true,
+			"Lava Ruins": true,
+			"Weather_Ashstorm": true,
+			"Baseturf": "/turf/open/lava/smooth/lava_land_surface",
+			"No Parallax": true
+		},
+		{
+			"Down": true,
+			"Up": true,
+			"Mining": true,
+			"Linkage": "Cross",
+			"Gravity": true,
+			"Lava Ruins": true,
+			"Weather_Ashstorm": true,
+			"Baseturf": "/turf/open/openspace",
+			"No Parallax": true
+		},
+		{
+			"Down": true,
+			"Mining": true,
+			"Linkage": "Cross",
+			"Gravity": true,
+			"Weather_Ashstorm": true,
+			"Baseturf": "/turf/open/openspace",
+			"No Parallax": true
+		}
+	],
+	"minetype": "none",
+	"blacklist_file": "lavaruinblacklist.txt"
+}
