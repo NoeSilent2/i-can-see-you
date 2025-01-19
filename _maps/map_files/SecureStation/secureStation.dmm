@@ -16707,6 +16707,10 @@
 /obj/effect/mapping_helpers/airlock/cutaiwire,
 /turf/open/floor/iron/dark,
 /area/station/security/brig)
+"eDG" = (
+/obj/structure/falsewall/reinforced,
+/turf/open/floor/plating,
+/area/station/service/library/upper)
 "eDI" = (
 /obj/machinery/dna_scannernew,
 /obj/effect/turf_decal/siding/purple{
@@ -25078,6 +25082,18 @@
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/station/science/ordnance)
+"gXT" = (
+/obj/item/book/granter/action/spell/true_random{
+	name = "book of primordial chaos: volume 3";
+	starting_title = "book of primordial chaos: volume 3";
+	reading_time = 120;
+	pages_to_mastery = 6;
+	remarks = list("Chaos... a primordial force that came before all others...","It barely even covers how to cast the spell... does it even know what spell its teaching me?","I don't think this book has said anything about casting methods, and yet I'm figuring something out...","What is it that I'm learning?","So much text, so much to take in... what does it all mean?","I think I understand... just a little longer...","Apparently I need magical talents to cast most forms of chaos... that may be hard to come across...","How do I become a wizard? It seems to assume that I am...","I don't think I was reading a language I knew for that whole page... and yet I did....","Beware of heresy... I suppose the mansus has touched the chaos...","The mansus is the easiest form of chaos to cast... if you discover it in your studies... I don't think they meant to give me this book...");
+	action_name = "primordial chaos";
+	icon_state = "heretichandbook"
+	},
+/turf/open/floor/engine/cult,
+/area/station/service/library/upper)
 "gYg" = (
 /obj/machinery/door/airlock/security/glass{
 	name = "Upper Brig Access"
@@ -51805,10 +51821,10 @@
 /obj/structure/table/wood,
 /obj/item/pinpointer/nuke,
 /obj/item/disk/nuclear,
-/obj/item/implanter/explosive_macro,
 /obj/item/implanter/krav_maga{
 	pixel_y = 4
 	},
+/obj/item/implanter/explosive,
 /turf/open/floor/wood/tile,
 /area/station/command/heads_quarters/captain/private)
 "oyB" = (
@@ -75865,15 +75881,6 @@
 /obj/item/book/granter/crafting_recipe/dusting/pipegun_prime{
 	name = "diary of one long deceased"
 	},
-/obj/item/book/granter/action/spell/true_random{
-	name = "book of primordial chaos: volume 2";
-	starting_title = "book of primordial chaos: volume 2";
-	reading_time = 120;
-	pages_to_mastery = 6;
-	remarks = list("Chaos... a primordial force that came before all others...","It barely even covers how to cast the spell... does it even know what spell its teaching me?","I don't think this book has said anything about casting methods, and yet I'm figuring something out...","What is it that I'm learning?","So much text, so much to take in... what does it all mean?","I think I understand... just a little longer...","Apparently I need magical talents to cast most forms of chaos... that may be hard to come across...","How do I become a wizard? It seems to assume that I am...","I don't think I was reading a language I knew for that whole page... and yet I did....","Beware of heresy... I suppose the mansus has touched the chaos...","The mansus is the easiest form of chaos to cast... if you discover it in your studies... I don't think they meant to give me this book...");
-	action_name = "primordial chaos";
-	icon_state = "heretichandbook"
-	},
 /turf/open/floor/engine/cult,
 /area/station/service/library/private)
 "vpf" = (
@@ -76849,15 +76856,6 @@
 	req_access = list("library")
 	},
 /obj/item/book/granter/crafting_recipe/boneyard_notes,
-/obj/item/book/granter/action/spell/true_random{
-	name = "book of primordial chaos: volume 3";
-	starting_title = "book of primordial chaos: volume 3";
-	reading_time = 120;
-	pages_to_mastery = 6;
-	remarks = list("Chaos... a primordial force that came before all others...","It barely even covers how to cast the spell... does it even know what spell its teaching me?","I don't think this book has said anything about casting methods, and yet I'm figuring something out...","What is it that I'm learning?","So much text, so much to take in... what does it all mean?","I think I understand... just a little longer...","Apparently I need magical talents to cast most forms of chaos... that may be hard to come across...","How do I become a wizard? It seems to assume that I am...","I don't think I was reading a language I knew for that whole page... and yet I did....","Beware of heresy... I suppose the mansus has touched the chaos...","The mansus is the easiest form of chaos to cast... if you discover it in your studies... I don't think they meant to give me this book...");
-	action_name = "primordial chaos";
-	icon_state = "heretichandbook"
-	},
 /turf/open/floor/engine/cult,
 /area/station/service/library/private)
 "vDz" = (
@@ -78768,6 +78766,15 @@
 /obj/structure/cable,
 /obj/effect/spawner/random/maintenance/six,
 /obj/structure/closet/crate/engineering,
+/obj/item/book/granter/action/spell/true_random{
+	name = "book of primordial chaos: volume 2";
+	starting_title = "book of primordial chaos: volume 2";
+	reading_time = 120;
+	pages_to_mastery = 6;
+	remarks = list("Chaos... a primordial force that came before all others...","It barely even covers how to cast the spell... does it even know what spell its teaching me?","I don't think this book has said anything about casting methods, and yet I'm figuring something out...","What is it that I'm learning?","So much text, so much to take in... what does it all mean?","I think I understand... just a little longer...","Apparently I need magical talents to cast most forms of chaos... that may be hard to come across...","How do I become a wizard? It seems to assume that I am...","I don't think I was reading a language I knew for that whole page... and yet I did....","Beware of heresy... I suppose the mansus has touched the chaos...","The mansus is the easiest form of chaos to cast... if you discover it in your studies... I don't think they meant to give me this book...");
+	action_name = "primordial chaos";
+	icon_state = "heretichandbook"
+	},
 /turf/open/floor/engine/cult,
 /area/station/service/library/abandoned)
 "wdT" = (
@@ -85937,14 +85944,6 @@
 	},
 /obj/item/book/granter/crafting_recipe/dusting/smoothbore_disabler_prime{
 	name = "a sinners divine inspiration: and how to make an excellent quality smoothbore disabler"
-	},
-/obj/item/book/granter/action/spell/blind{
-	action_name = "visions of heaven";
-	granted_action = /datum/action/cooldown/mob_cooldown/watcher_gaze;
-	reading_time = 90;
-	pages_to_mastery = 7;
-	remarks = list("So this is how the watchers do it!","Good thing they taught me about lavaland before I came here... that is really helping me figure this out.","Gods of lavaland? Never heard of em...","Blinds everybody who meets my eyes... seems useful.","So it lets you see heaven, but you also get blinded... how do they know its heaven?","Make sure they meet your eyes, or else you will be stuck vulnerable for some time... good to know.","How did they figure this all out?","This is jam packed with Ashwalker mythology... cool stuff!","The legion fear it... do they now?","This is a pretty good read actually...","I think I've got it... its how I look at them...","Apparently it is very obvious when I'm doing it","I should make sure to not leave myself exposed afterwards... a risky move...");
-	name = "the complete handbook on visual projections and sightseeing"
 	},
 /turf/open/floor/iron/grimy,
 /area/station/service/library/private)
@@ -264945,7 +264944,7 @@ tOP
 uId
 uId
 uId
-uId
+gXT
 uId
 pKT
 tOT
@@ -265202,7 +265201,7 @@ tOP
 uId
 uId
 uId
-uId
+eDG
 uId
 pKT
 pKT
