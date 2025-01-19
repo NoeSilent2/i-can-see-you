@@ -7875,11 +7875,11 @@
 /area/station/medical/medbay/lobby)
 "cjO" = (
 /obj/docking_port/stationary{
-	dwidth = 6;
+	dwidth = 3;
 	height = 6;
 	name = "Cargo Bay";
-	shuttle_id = "cargo_secure";
-	width = 11;
+	shuttle_id = "cargo_home";
+	width = 9;
 	dir = 8
 	},
 /turf/open/floor/pod/light,
@@ -20578,11 +20578,11 @@
 "fMf" = (
 /obj/docking_port/stationary{
 	dir = 8;
-	height = 7;
+	height = 13;
 	name = "arrivals";
 	roundstart_template = /datum/map_template/shuttle/arrival/secure;
 	shuttle_id = "arrival_stationary";
-	width = 5;
+	width = 7;
 	dwidth = 3
 	},
 /turf/open/openspace/lavaland,
@@ -251727,7 +251727,7 @@ rDS
 rDS
 rDS
 rDS
-fMf
+rDS
 rDS
 rDS
 rDS
@@ -252498,7 +252498,7 @@ rsN
 rDS
 rDS
 rDS
-rDS
+fMf
 rDS
 rDS
 rDS
