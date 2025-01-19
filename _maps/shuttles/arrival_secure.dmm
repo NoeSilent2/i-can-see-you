@@ -5,13 +5,19 @@
 	},
 /turf/open/floor/plating,
 /area/shuttle/arrival)
+"i" = (
+/obj/docking_port/mobile/arrivals{
+	dir = 4
+	},
+/turf/closed/wall/mineral/titanium/survival/nodiagonal,
+/area/shuttle/arrival)
 "m" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced/spawner/directional/east,
 /turf/open/floor/plating,
 /area/shuttle/arrival)
 "p" = (
-/obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
+/obj/effect/spawner/structure/window/survival_pod,
 /turf/open/floor/plating,
 /area/shuttle/arrival)
 "s" = (
@@ -39,6 +45,7 @@
 /obj/effect/turf_decal/trimline/yellow/line{
 	dir = 1
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/pod/dark,
 /area/shuttle/arrival)
 "A" = (
@@ -51,22 +58,15 @@
 "C" = (
 /turf/closed/wall/mineral/titanium/survival/nodiagonal,
 /area/shuttle/arrival)
-"I" = (
-/obj/docking_port/mobile/arrivals{
-	dir = 4
-	},
-/turf/closed/wall/mineral/titanium/survival/nodiagonal,
-/area/shuttle/arrival)
 "Q" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/pod/light,
+/area/shuttle/arrival)
+"S" = (
 /obj/effect/turf_decal/trimline/yellow/line{
 	dir = 1
 	},
-/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/pod/dark,
-/area/shuttle/arrival)
-"S" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/pod/light,
 /area/shuttle/arrival)
 "T" = (
 /obj/machinery/door/airlock/survival_pod/glass,
@@ -109,7 +109,7 @@
 (1,1,1) = {"
 C
 a
-I
+i
 a
 C
 "}
@@ -129,23 +129,23 @@ C
 "}
 (4,1,1) = {"
 p
-S
-t
 Q
+t
+z
 T
 "}
 (5,1,1) = {"
 C
 s
 A
-z
+S
 C
 "}
 (6,1,1) = {"
 p
-S
-t
 Q
+t
+z
 p
 "}
 (7,1,1) = {"
