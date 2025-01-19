@@ -73,7 +73,7 @@
 "abf" = (
 /obj/machinery/status_display/shuttle,
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
-/area/station/security/checkpoint/customs)
+/area/station/hallway/secondary/entry)
 "abm" = (
 /obj/structure/table,
 /obj/item/toy/toy_xeno{
@@ -5513,19 +5513,9 @@
 /turf/open/floor/iron/smooth,
 /area/station/commons/storage/primary)
 "bxG" = (
-/obj/docking_port/stationary{
-	dir = 8;
-	height = 7;
-	name = "arrivals";
-	roundstart_template = /datum/map_template/shuttle/arrival/secure;
-	shuttle_id = "arrival_stationary";
-	width = 5
-	},
-/turf/open/openspace/airless/planetary{
-	initial_gas_mix = "LAVALAND_ATMOS";
-	name = "lavaland"
-	},
-/area/lavaland/surface/outdoors)
+/obj/machinery/status_display/shuttle,
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/station/security/checkpoint/customs)
 "bxP" = (
 /obj/structure/table/wood,
 /obj/item/folder/blue,
@@ -17993,10 +17983,6 @@
 /obj/structure/closet/crate/solarpanel_small,
 /turf/open/floor/iron/textured_large,
 /area/station/engineering/main)
-"eYk" = (
-/obj/machinery/status_display/shuttle,
-/turf/closed/wall/r_wall/syndicate/nodiagonal,
-/area/station/hallway/secondary/entry)
 "eYP" = (
 /obj/structure/reagent_dispensers/watertank{
 	reagent_id = /datum/reagent/water/holywater;
@@ -20611,8 +20597,14 @@
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/science/research)
 "fMf" = (
-/obj/structure/lattice,
-/obj/structure/lattice,
+/obj/docking_port/stationary{
+	dir = 8;
+	height = 5;
+	name = "arrivals";
+	roundstart_template = /datum/map_template/shuttle/arrival/secure;
+	shuttle_id = "arrival_stationary";
+	width = 7
+	},
 /turf/open/openspace/airless/planetary{
 	initial_gas_mix = "LAVALAND_ATMOS";
 	name = "lavaland"
@@ -184732,7 +184724,7 @@ rDS
 rDS
 ucV
 ucV
-abf
+bxG
 ucV
 ucV
 lhz
@@ -186274,7 +186266,7 @@ rDS
 rDS
 ucV
 ucV
-abf
+bxG
 ucV
 ucV
 kIl
@@ -250004,7 +249996,7 @@ rDS
 cKk
 cKk
 iHZ
-eYk
+abf
 jHR
 oEv
 nXm
@@ -250267,7 +250259,7 @@ oEv
 nXm
 ucV
 ucV
-abf
+bxG
 ucV
 ucV
 ucV
@@ -251797,7 +251789,7 @@ rDS
 rDS
 rDS
 rDS
-bxG
+fMf
 rDS
 rDS
 iHZ
@@ -251809,7 +251801,7 @@ idM
 nXm
 ucV
 ucV
-abf
+bxG
 ucV
 ucV
 ucV
@@ -252060,7 +252052,7 @@ rDS
 cKk
 cKk
 iHZ
-eYk
+abf
 xNe
 oEv
 nXm
@@ -258773,7 +258765,7 @@ rDS
 rDS
 rDS
 rDS
-fMf
+rsN
 rDS
 rDS
 rsN

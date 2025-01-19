@@ -21,6 +21,10 @@
 /turf/open/openspace/airless/planetary
 	planetary_atmos = TRUE
 
+/turf/open/openspace/lavaland
+	planetary_atmos = TRUE
+	initial_gas_mix = LAVALAND_DEFAULT_ATMOS
+
 // Reminder, any behavior code written here needs to be duped to /turf/open/space/openspace
 // I am so sorry
 /turf/open/openspace/Initialize(mapload) // handle plane and layer here so that they don't cover other obs/turfs in Dream Maker
