@@ -71,9 +71,20 @@
 /turf/open/floor/plating/lavaland_atmos,
 /area/station/science/ordnance/bomb)
 "abf" = (
-/obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
-/turf/open/floor/plating,
-/area/station/security/office)
+/obj/docking_port/stationary{
+	dir = 8;
+	height = 7;
+	name = "arrivals";
+	roundstart_template = /datum/map_template/shuttle/arrival/secure;
+	shuttle_id = "arrival_stationary";
+	width = 5;
+	dwidth = 3
+	},
+/turf/open/openspace/airless/planetary{
+	initial_gas_mix = "LAVALAND_ATMOS";
+	name = "lavaland"
+	},
+/area/lavaland/surface/outdoors)
 "abm" = (
 /obj/structure/table,
 /obj/item/toy/toy_xeno{
@@ -5512,21 +5523,6 @@
 	},
 /turf/open/floor/iron/smooth,
 /area/station/commons/storage/primary)
-"bxG" = (
-/obj/docking_port/stationary{
-	dir = 8;
-	dwidth = 3;
-	height = 12;
-	name = "north star arrivals";
-	roundstart_template = /datum/map_template/shuttle/arrival/northstar;
-	shuttle_id = "arrival_stationary";
-	width = 7
-	},
-/turf/open/openspace/airless/planetary{
-	initial_gas_mix = "LAVALAND_ATMOS";
-	name = "lavaland"
-	},
-/area/lavaland/surface/outdoors)
 "bxP" = (
 /obj/structure/table/wood,
 /obj/item/folder/blue,
@@ -23800,7 +23796,7 @@
 /obj/effect/turf_decal/stripes{
 	dir = 8
 	},
-/obj/structure/emergency_shield/regenerating,
+/obj/structure/fans/tiny/shield,
 /turf/open/floor/plating,
 /area/station/cargo/storage)
 "gFv" = (
@@ -27394,7 +27390,7 @@
 /obj/effect/turf_decal/trimline/dark_blue/line{
 	dir = 4
 	},
-/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/turf/closed/wall/r_wall/syndicate,
 /area/station/command/corporate_dock)
 "hHi" = (
 /obj/structure/chair/pew/right{
@@ -40501,6 +40497,7 @@
 /obj/effect/mapping_helpers/airlock/unres{
 	dir = 1
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/iron/dark/textured_large,
 /area/station/hallway/secondary/entry)
 "llm" = (
@@ -67261,7 +67258,7 @@
 /obj/effect/turf_decal/stripes{
 	dir = 4
 	},
-/obj/structure/emergency_shield/regenerating,
+/obj/structure/fans/tiny/shield,
 /turf/open/floor/plating,
 /area/station/cargo/storage)
 "sOh" = (
@@ -71502,6 +71499,7 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 1
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/iron/textured_large,
 /area/station/hallway/secondary/exit/departure_lounge)
 "tXi" = (
@@ -85681,6 +85679,10 @@
 /obj/effect/turf_decal/siding/thinplating/dark,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/door/poddoor/preopen{
+	id = "brig_outer_panopticon";
+	name = "Outer Panopticon Lockdown"
+	},
 /turf/open/floor/iron/dark/textured_large,
 /area/station/security/office)
 "xRr" = (
@@ -182223,14 +182225,14 @@ kXW
 rgX
 mCo
 vrR
-abf
-abf
-abf
+xan
+xan
+xan
 rSf
-abf
-abf
-abf
-abf
+xan
+xan
+xan
+xan
 rSf
 rDS
 rDS
@@ -182483,12 +182485,12 @@ vrR
 dqP
 lDD
 rOm
-abf
+xan
 lPq
 lWP
 lWP
 chb
-abf
+xan
 rDS
 rDS
 rDS
@@ -182997,7 +182999,7 @@ qHN
 hYo
 uTs
 jKC
-abf
+xan
 aBN
 juD
 lWP
@@ -183511,13 +183513,13 @@ vrR
 ixj
 vrR
 rDS
-abf
+xan
 ipV
 bpu
 oYa
 qwR
 pBd
-abf
+xan
 rDS
 rDS
 rDS
@@ -183768,13 +183770,13 @@ gbv
 ryG
 iyd
 rDS
-abf
+xan
 nVX
 dAq
 qig
 tom
 kkv
-abf
+xan
 rDS
 rDS
 rDS
@@ -184027,7 +184029,7 @@ iyd
 rDS
 rSf
 rSf
-abf
+xan
 rSf
 hlQ
 rSf
@@ -251788,7 +251790,7 @@ rDS
 rDS
 rDS
 rDS
-rDS
+abf
 rDS
 rDS
 iHZ
@@ -252301,7 +252303,7 @@ rsN
 rDS
 rDS
 rDS
-bxG
+rDS
 rDS
 rDS
 rDS

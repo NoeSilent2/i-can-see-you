@@ -1,0 +1,152 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/closed/wall/mineral/titanium/survival/nodiagonal,
+/area/shuttle/supply)
+"j" = (
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/pod/dark,
+/area/shuttle/supply)
+"k" = (
+/obj/machinery/door/airlock/survival_pod/glass,
+/obj/docking_port/mobile/supply{
+	port_direction = 8
+	},
+/turf/open/floor/pod/dark,
+/area/shuttle/supply)
+"n" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/turf/open/floor/pod/dark,
+/area/shuttle/supply)
+"q" = (
+/obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
+/turf/open/floor/plating,
+/area/shuttle/supply)
+"s" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/turf/open/floor/pod/dark,
+/area/shuttle/supply)
+"u" = (
+/obj/machinery/power/shuttle_engine/heater,
+/turf/closed/wall/mineral/titanium/survival/nodiagonal,
+/area/shuttle/supply)
+"w" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/turf/open/floor/pod/dark,
+/area/shuttle/supply)
+"x" = (
+/obj/machinery/door/airlock/survival_pod/glass,
+/turf/open/floor/pod/dark,
+/area/shuttle/supply)
+"z" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4;
+	plane = -3
+	},
+/turf/open/floor/pod/dark,
+/area/shuttle/supply)
+"A" = (
+/obj/effect/turf_decal/box,
+/turf/open/floor/pod/light,
+/area/shuttle/supply)
+"B" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/turf/open/floor/pod/dark,
+/area/shuttle/supply)
+"D" = (
+/turf/open/floor/pod/dark,
+/area/shuttle/supply)
+"H" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/pod/dark,
+/area/shuttle/supply)
+"K" = (
+/obj/machinery/power/shuttle_engine/propulsion/burst/left,
+/turf/closed/wall/mineral/titanium/survival,
+/area/shuttle/supply)
+"P" = (
+/turf/closed/wall/mineral/titanium/survival,
+/area/shuttle/supply)
+"S" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8;
+	pixel_x = -2
+	},
+/turf/open/floor/pod/dark,
+/area/shuttle/supply)
+
+(1,1,1) = {"
+P
+a
+a
+a
+a
+a
+a
+u
+K
+"}
+(2,1,1) = {"
+a
+n
+S
+S
+S
+S
+S
+B
+a
+"}
+(3,1,1) = {"
+a
+H
+A
+A
+D
+A
+A
+j
+a
+"}
+(4,1,1) = {"
+a
+H
+A
+A
+D
+A
+A
+j
+a
+"}
+(5,1,1) = {"
+a
+w
+z
+z
+z
+z
+z
+s
+a
+"}
+(6,1,1) = {"
+P
+a
+x
+k
+a
+q
+q
+u
+K
+"}
