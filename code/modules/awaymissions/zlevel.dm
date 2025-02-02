@@ -73,6 +73,10 @@ GLOBAL_LIST_INIT(potentialConfigRandomZlevels, generate_map_list_from_directory(
 	name = "Snowdin away spawn"
 	id = AWAYSTART_SNOWDIN
 
+/obj/effect/landmark/awaystart/construct
+	name = "Construct away spawn"
+	id = AWAYSTART_CONSTRUCT
+
 /obj/effect/landmark/awaystart/underground
 	name = "Underground Outpost 45 away spawn"
 	id = AWAYSTART_UNDERGROUND
